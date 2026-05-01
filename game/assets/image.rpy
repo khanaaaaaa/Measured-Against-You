@@ -1,0 +1,6 @@
+image inn = "images/in.png"
+image ip = "images/ip.png"
+image iss = "images/is.png"
+image isu = "images/isu.png"
+image it = "images/it.png"
+image js = "images/js.png"

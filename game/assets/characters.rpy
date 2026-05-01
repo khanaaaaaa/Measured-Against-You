@@ -1,0 +1,5 @@
+define inha = Character("In-Ha")
+define mom = Character("Mom")
+define yejun = Character("Ye-jun Noh")
+define minji = Character("Min Ji")
+define thought = Character(None, what_italic=True)
