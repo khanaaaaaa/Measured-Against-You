@@ -352,29 +352,50 @@ style navigation_button_text:
 
 screen main_menu():
 
-    ## This ensures that any other menu screen is replaced.
     tag menu
 
-    add gui.main_menu_background
+    add Solid("#fdf0f5")
 
-    ## This empty frame darkens the main menu.
-    frame:
-        style "main_menu_frame"
+    ## Title — left side
+    vbox:
+        xpos 200
+        yalign 0.5
+        spacing 16
 
-    ## The use statement includes another screen inside this one. The actual
-    ## contents of the main menu are in the navigation screen.
-    use navigation
+        text "[config.name!t]":
+            size 70
+            color "#b5446e"
 
-    if gui.show_name:
+        text "♡":
+            size 26
+            color "#d4849e"
 
-        vbox:
-            style "main_menu_vbox"
+    ## Buttons — right side
+    vbox:
+        xpos 1100
+        yalign 0.5
+        spacing 10
 
-            text "[config.name!t]":
-                style "main_menu_title"
+        if main_menu:
+            textbutton _("start") action Start() style "cute_button"
 
-            text "[config.version]":
-                style "main_menu_version"
+        textbutton _("load") action ShowMenu("load") style "cute_button"
+        textbutton _("preferences") action ShowMenu("preferences") style "cute_button"
+        textbutton _("about") action ShowMenu("about") style "cute_button"
+
+        if renpy.variant("pc"):
+            textbutton _("quit") action Quit(confirm=True) style "cute_button"
+
+style cute_button is default:
+    xminimum 260
+    padding (16, 8, 16, 8)
+    background None
+
+style cute_button_text:
+    size 32
+    color "#b5446e"
+    hover_color "#e8789a"
+    font "DejaVuSans.ttf"
 
 
 style main_menu_frame is empty
