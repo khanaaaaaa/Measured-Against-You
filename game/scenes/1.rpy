@@ -22,7 +22,7 @@ label prologue:
     thought "Only me."
     thought "It's always only me."
 
-    show inhatalk at center_char
+    show inhasad at center_char
     inha "Don't cry."
     inha "Atleast not here."
     inha "Not in front of everyone..."
@@ -34,10 +34,10 @@ label prologue:
     thought "Mom."
 
     hide inhaquiet
-    show inhasmiletalking at center_char
+    show inhatalk at center_char
 
     inha "Hello?"
-    hide inhasmiletalking
+    hide inhatalk
     show inhaquiet at center_char
     mom "Sweetheart~ Are you done for the day?"
     hide inhaquiet
@@ -50,9 +50,6 @@ label prologue:
     mom "She called me this morning." 
     mom "She wants to have dinner together~"
     thought "Ye-Jun...?"
-
-    hide inhaquiet
-    show inhatalk at center_char
     mom "You remember Ye-Jun, right? Noh Ye-Jun?"
     mom "You two were inseparable when you were little!"
 
@@ -66,7 +63,8 @@ label prologue:
     show yejunsmalltalk at center_char
 
     yejun "In-Ha, look at mine!"
-    yejun "I drew a robot. Does it look cool?"
+    yejun "I drew a robot." 
+    yejun "Does it look cool?"
 
     hide yejunsmalltalk
     screen black
@@ -80,119 +78,115 @@ label prologue:
     thought "Canada, they said."
     thought "Better opportunities."
 
-    
-
+    show inhaquiet    
     mom "He's back now, apparently!"
     mom "His mom says he grew up so handsome~"
 
-    hide iss
-    show ist at center_char
+    hide inhaquiet
+    show inhatalk at center_char
     inha "Mm."
-    hide ist
-    show iss at center_char
+    hide inhatalk
+    show inhaquiet at center_char
     mom "His mom will come by after dinner, so eat on your way home, okay?"
     mom "Don't skip meals again, In-Ha."
-    hide iss
-    show ist at center_char
+    hide inhaquiet
+    show inhatalk at center_char
     inha "Okay, mom. I'll eat."
     inha "I have to go."
-    hide ist
+    hide inhatalk
 
-    "I hang up."
-    "The hallway is emptying out."
-    "Minji appears beside me like she materialized from thin air."
+    thought "I hang up."
+    thought "The hallway is emptying out."
+    thought "Minji appears beside me like she materialized from thin air."
 
-    show msu at center_char
+    show minjismiletalk at center_char
     minji "Hey. You okay?"
-    hide msu
+    hide minjismiletalk
+    show minjismile at center_char
 
     menu:
         "\"I'm fine.\""
-            show ist at center_char
             inha "I'm fine."
             inha "Let's just go."
-            hide ist
-            show ms at center_char
+            hide minjismile
+            show minjismiletalk
             minji "You're doing the thing where you say you're fine but your eye is twitching."
-            hide ms
-            show ist at center_char
+            hide minjismiletalk
+            show minjismile at center_char
             inha "My eye is not twitching."
-            hide ist
-            show mq at center_char
+            hide minjismile
+            show minjismiletalk at center_char
             minji "It's twitching a little."
-            hide mq
 
         "\"I don't want to talk about it.\""
-            show ist at center_char
             inha "I don't want to talk about it."
-            hide ist
-            show ms at center_char
-            minji "Okay. We won't talk about it."
+            hide minjismile
+            show minjismiletalk at center_char
+            minji "Okay..." 
+            minji "We won't talk about it."
             minji "We'll just walk and I'll talk about something else entirely."
-            hide ms
 
-    show msu at center_char
+    show minjismiletalk at center_char
     minji "Did you hear about Si-Hyeon by the way?"
-    hide msu
-    show ist at center_char
+    hide minjismiletalk
+    show minjismile at center_char
     inha "What about her?"
-    hide ist
-    show mut at center_char
+    hide minjismile
+    show minjismiletalk at center_char
     minji "She bombed the test."
     minji "Like, catastrophically."
     minji "Apparently she's been skipping academy to see some third-year guy."
     minji "A third-year, In-Ha."
     minji "During exam season."
-    hide mut
+    hide minjismiletalk
 
     menu:
         "\"That's her choice.\""
-            show ist at center_char
+            show minjismile at center_char
             inha "I mean... it's her life."
-            hide ist
-            show mq at center_char
+            hide minjismile
+            show minjismiletalk at center_char
             minji "Her life that is currently on fire, yes."
-            hide mq
+            hide minjismiletalk
 
         "\"I don't understand how anyone has time for that.\""
-            show ist at center_char
+            show minjismile at center_char
             inha "I genuinely don't understand how people have the mental space for that right now."
             inha "Every second counts."
-            hide ist
-            show ms at center_char
+            hide minjismile
+            show minjismiletalk at center_char
             minji "...You sound like a motivational poster."
-            hide ms
-            show ist at center_char
+            hide minjismiletalk
+            show minjismile at center_char
             inha "I sound like someone who wants to pass."
-            hide ist
+            hide minjismile
 
-    show mst at center_char
+    show minjismiletalk at center_char
     minji "Anyway. I didn't do the academy homework."
-    hide mst
-    show ist at center_char
+    hide minjismiletalk
+    show minjismile at center_char
     inha "Minji."
-    hide ist
-    show msu at center_char
+    hide minjismile
+    show minjismiletalk at center_char
     minji "I know, I know."
-    hide msu
-    show ist at center_char
+    hide minjismiletalk
+    show minjismile at center_char
     inha "If you skip it now you'll have double next week."
-    hide ist
-    show ms at center_char
+    hide minjismile
+    show minjismiletalk at center_char
     minji "Then I'll do double next week."
     minji "I'm built different."
-    hide ms
-    show ist at center_char
+    hide minjismiletalk
+    show minjismile at center_char
     inha "You are not built different."
-    hide ist
-    show mq at center_char
+    hide minjismile
+    show minjismiletalk at center_char
     minji "A little different."
-    hide mq
+    hide minjismiletalk
 
-    "We walk."
-    "The evening is cold."
-    "December settling in properly now."
-    "I pull my coat tighter."
+    thought "We walk."
+    thought "The evening is cold."
+    thought "December settling in properly now."
 
     thought "Ye-Jun."
     thought "I haven't thought about him in years."
@@ -204,20 +198,20 @@ label prologue:
 
     scene crosswalk with fade
 
-    "The crosswalk."
-    "Red light."
-    "I crouch down to tie my shoelace."
-    "When I stand back up—"
+    thought "The crosswalk."
+    thought "Red light."
 
     thought "..."
 
-    "There is a person standing on the other side of the road."
-    "Tall."
-    "Black coat."
-    "Snow just starting to fall around him."
-    "He's looking at his phone."
-    "Then he looks up."
-    "And he looks directly at me."
+    show yejunquiet at center_char
+
+    thought "There is a person standing on the other side of the road."
+    thought "Tall."
+    thought "Black coat."
+    thought "Snow just starting to fall around him."
+    thought "He's looking at his phone."
+    thought "Then he looks up."
+    thought "And he looks directly at me."
 
     thought "That person..."
     thought "That's—"
