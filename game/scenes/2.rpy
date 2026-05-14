@@ -1,35 +1,57 @@
 label chapter1:
     scene crosswalk with fade
 
-    "December."
-    "The academy district glows cold under fluorescent lights."
-    "My shoelace came undone."
-    "I crouch to tie it."
-    "But when I looked up-"
-    "-There was a person standing across the road."
-    "Tall."
-    "Black coat."
-    "Snow falling around him."
-    "Not a little boy anymore."
+    thought "December."
+    thought "Cold enough that my breath fogs the moment I step outside."
+    thought "The academy district is all fluorescent light and hurrying people."
 
-    thought "..Ye-Jun?"
+    "My shoelace comes undone at the crosswalk."
+    "I crouch down to tie it."
+    "Stand back up."
+    "And—"
 
-    "He notices me."
-    "Silence."
-    "The traffic light changes."
-    "Neither of us move."
+    thought "..."
 
-    show
+    "There is a person standing on the other side of the road."
+    "Tall. Black coat."
+    "Snow just starting to fall around him."
+    "He looks up from his phone."
+    "Directly at me."
 
-    yejun "...You still look the smae."
-    inha "You don't."
+    thought "Noh Ye-Jun."
+    thought "It's actually him."
 
-    scene black with fade
-    "We stand there for a moment longer than we should."
-    "Then the light changes again."
-    "And we cross the road."
-    "In opposite directions."
-    "Like we always did."
+    "The light is red."
+    "Neither of us moves."
+
+    show js at center_char
+    yejun "...You still look the same."
+    hide js
+
+    menu:
+        "\"You don't.\""
+            show ist at center_char
+            inha "You don't."
+            hide ist
+            show js at center_char
+            yejun "..."
+            yejun "No. I don't."
+            hide js
+
+        "Say nothing."
+            thought "I don't know what to say."
+            thought "So I say nothing."
+            show js at center_char
+            yejun "It's been a while."
+            hide js
+
+    "The light turns green."
+    "We cross in opposite directions."
+
+    thought "I don't look back."
+    thought "..."
+    thought "I looked back."
+    thought "He was already gone."
 
     jump chapter2
 
@@ -37,100 +59,120 @@ label chapter2:
     scene classroom with fade
 
     "Three days later."
-    "He transfers nto my academy."
+    "He transfers into my academy."
 
     thought "Of course he does."
 
-    minji "Did you hear?"
-    minji "The new transfer student studied in Canada."
-    minji "IVY League Prep School."
-    minji "Fluent English."
-    minji "Perfect grades."
-    minji "Pretty face."
-    minji "He's basically a celebrity already."
+    show msu at center_char
+    minji "Did you hear? The transfer student."
+    minji "Canada. Ivy League prep. Perfect grades."
+    minji "And In-Ha— he is so pretty."
+    hide msu
+    show ist at center_char
+    inha "I know who he is."
+    hide ist
+    show ms at center_char
+    minji "...You do?"
+    hide ms
 
-    thought "I know."
-    thought "I already know."
-    thought "I've known him since we were eight years old."
-    thought "And somehow..."
-    thought "..he still manages to make me feel small."
+    menu:
+        "\"We grew up next door to each other.\""
+            show ist at center_char
+            inha "We grew up next door to each other."
+            hide ist
+            show mq at center_char
+            minji "WHAT. And you never told me?!"
+            hide mq
+            show ist at center_char
+            inha "It didn't come up."
+            hide ist
 
-    "The classroom buzzes around him."
-    "Everyone wants to sit near him."
-    "Everyone wants to talk to him."
-    "He answers politely."
-    "Calmly."
-    "Like this is normal"
+        "\"It doesn't matter.\""
+            show ist at center_char
+            inha "It doesn't matter. I just know him."
+            hide ist
+            show ms at center_char
+            minji "That is so unsatisfying."
+            hide ms
+
+    "He walks in."
+    "The classroom shifts around him."
+    "He doesn't perform. Doesn't look around."
+    "Just sits down and opens his notebook."
 
     thought "He was always like that."
-    thought "Even as a kid."
     thought "Effortless."
+    thought "I used to find it annoying."
+    thought "I still do."
 
-    inha "..."
-
-    "I opened my sketchbook."
-    "I draw a sketch of him."
-    "Then I cross it out."
+    "I open my sketchbook."
+    "Draw a line."
+    "Cross it out."
 
     jump chapter3
 
 label chapter3:
     scene academy_night with fade
 
-    "It's late already."
-    "Everyone has gone home."
-    "Except me."
-    "I forgot my sktchbook in the studio."
+    "Late. Everyone has gone home."
+    "I forgot my sketchbook in the studio."
 
     "I push open the door."
-    "The lights are still on."
-    "Someone is sitting at the back table."
-    "Ye-Jun."
-    "He has my sketchbook open in front of him."
+    "Lights still on."
+    "Ye-Jun is sitting at the back table."
+    "My sketchbook open in front of him."
 
-    inha "Hey-!"
+    show ist at center_char
+    inha "Hey—!"
+    hide ist
 
-    yejun "Sorry."
-    yejun "I found it on the floor."
-    yejun "I wasn't sure whose it was."
-    yejun "I only opened the first page."
+    show js at center_char
+    yejun "Sorry. I found it by the door."
+    yejun "I opened it to check for a name."
+    hide js
 
-    "He closes it carefully."
-    yejun "I found it on the floor."
-    yejun "I wasn't sure whose it was."
-    yejun "I only opened the first page."
-
-    "He closes it carefully."
-    "Slides it across the table around me."
-    "But his expression has changed."
+    "He closes it carefully. Slides it toward me."
+    "His expression has changed."
     "Something quiet and heavy behind his eyes."
 
-    thought "How much did he see?"
+    thought "How much did he see."
 
-    inha "It's fine."
-    inha "It's just sketches."
+    menu:
+        "\"It's fine. They're just sketches.\""
+            show ist at center_char
+            inha "It's fine. They're just sketches."
+            hide ist
+            show js at center_char
+            yejun "They were good."
+            hide js
+            show ist at center_char
+            inha "Don't."
+            hide ist
+            show js at center_char
+            yejun "I mean it."
+            hide js
+            show ist at center_char
+            inha "I said don't."
+            hide ist
 
-    inha "It's fine."
-    inha "It's just sketches."
+        "\"You shouldn't have opened it.\""
+            show ist at center_char
+            inha "You shouldn't have opened it."
+            hide ist
+            show js at center_char
+            yejun "You're right. I'm sorry."
+            yejun "They were good though."
+            hide js
+            show ist at center_char
+            inha "That's not the point."
+            hide ist
 
-    yejun "They were good."
-
-    inha "Don't."
-
-    yejun "I mean it."
-
-    inha "I said don't."
-
-    "Silence."
-    "I grab the sketchbook."
-    "I leave."
+    "I grab the sketchbook and leave."
     "I don't look back."
-    "But I know he watched me go."
 
-    thought "The sketches he saw.."
     thought "Pages titled 'Not Enough.'"
-    thought "'Second Place'"
-    thought "'If I disappear, nobody notices.'"
+    thought "'Second Place.'"
+    thought "'If I disappeared, would anyone notice?'"
     thought "He saw all of it."
     thought "And he said they were good."
     thought "I don't know what to do with that."
@@ -140,73 +182,128 @@ label chapter3:
 label chapter4:
     scene classroom with fade
 
-    "A week passes."
-    "We don't speak."
+    "A week passes. We don't speak."
     "But I notice things."
-    "He never eats lunch with anyone."
-    "He sits in the back during breaks."
-    "He stares at his phone but never types anything."
-    "He looks-"
+    "He never eats with anyone."
+    "He stares at his phone but never types."
+    "He answers teachers correctly and then goes quiet again immediately."
 
     thought "Tired."
-    thought "Not the tired of someone who studies too hard."
-    thought "The tired of someone who has been performing for a very long time."
+    thought "Not exam-tired."
+    thought "The kind of tired that comes from performing the same role for too long."
 
-    minji "In-Ha."
-    minji "You keep staring at him."
-    inha "I'm not."
-    minji "You literally haven't blinked in four minutes."
-    inha "I'm thinking."
-    minji "You literally haven't blinked in four minutes."
-    inha "I'm thinking."
-    minji "About him?"
-    inha "About the exam."
-    minji "Sure."
+    show ms at center_char
+    minji "In-Ha. You've been staring at him."
+    hide ms
+
+    menu:
+        "\"I'm thinking about the exam.\""
+            show ist at center_char
+            inha "I'm thinking about the exam."
+            hide ist
+            show mq at center_char
+            minji "He is not the exam."
+            hide mq
+
+        "\"Does he always look that tired?\""
+            show ist at center_char
+            inha "Does he always look that tired?"
+            hide ist
+            show ms at center_char
+            minji "Most people just think he looks mysterious."
+            hide ms
+            show ist at center_char
+            inha "Most people aren't looking closely enough."
+            hide ist
+            show mq at center_char
+            minji "...I need you to think about what you just said."
+            hide mq
+
+    show ist at center_char
+    inha "Drop it."
+    hide ist
+    show ms at center_char
+    minji "Dropped. Gone. Never existed."
+    hide ms
+
+    thought "She will bring it up again within the hour."
 
     jump chapter5
 
 label chapter5:
     scene rooftop with fade
 
-    "I find him on the rooftop."
-    "By accident."
+    "I find him on the rooftop. By accident."
     "I came up here to be alone."
-    "He's lying on the ground."
-    "Jacket folded under his head.. eyes closed."
+    "He's lying on the ground, jacket under his head, eyes closed."
 
-    thought "Is he sleeping?"
+    thought "Is he sleeping. On concrete. In December."
 
-    inha "..."
+    show ist at center_char
     inha "Hey."
+    hide ist
 
-    "No response."
+    "Nothing."
 
-    inha "Yah."
-    inha "Noh Ye-Jun."
+    show ist at center_char
+    inha "Yah. Noh Ye-Jun."
+    hide ist
 
+    show js at center_char
     yejun "I heard you the first time."
+    hide js
 
+    show ist at center_char
     inha "Then why didn't you answer?"
+    hide ist
 
-    yejun "I heard you the first time."
-
-    inha "Then why didn't you answer?"
-
+    show js at center_char
     yejun "I was deciding if I wanted to."
+    hide js
 
-    "I stare at him."
     "He opens one eye."
 
-    yejun "You can sit down."
-    yejun "I don't own the roof."
+    show js at center_char
+    yejun "You can sit down. I don't own the roof."
+    hide js
 
-    "I sit down."
-    "Far away from him."
+    menu:
+        "Sit down nearby."
+            "I sit down."
+            "Closer than I planned."
+            "I don't acknowledge that."
+
+        "Sit down far away."
+            "I sit on the opposite end."
+            "He doesn't comment."
+
     "We don't talk for a while."
-    "The city hums below us."
+    "The city hums below."
     "It's cold."
-    "But somehow.."
-    "..it's the most peaceful I've felt in weeks."
+    "But somehow—"
+    "—it's the most peaceful I've felt in weeks."
+
+    show js at center_char
+    yejun "You come up here often?"
+    hide js
+
+    menu:
+        "\"When it gets too loud downstairs.\""
+            show ist at center_char
+            inha "When it gets too loud downstairs."
+            inha "My own head, mostly."
+            hide ist
+            show js at center_char
+            yejun "Yeah. I know that kind of loud."
+            hide js
+
+        "\"This is my first time.\""
+            show ist at center_char
+            inha "This is my first time actually."
+            hide ist
+            show js at center_char
+            yejun "Good instinct."
+            hide js
 
     jump chapter6
 
@@ -215,25 +312,88 @@ label chapter6:
 
     "It becomes a habit."
     "Neither of us planned it."
-    "But every few days.."
-    "...we end up on the roof."
-    "Sometimes we talk."
-    "Sometimes we don't."
+    "Every few days we end up on the roof."
+    "Sometimes we talk. Sometimes we don't."
+    "Both are fine."
 
+    show js at center_char
     yejun "You never told anyone about the sketchbook."
+    hide js
+    show ist at center_char
     inha "There was nothing to tell."
-    yejun "Most people would have been embarassed."
-    inha "I was embarrased."
-    inha "I just didn't show it."
-    yejun "That's what I mean."
+    hide ist
+    show js at center_char
+    yejun "Most people would have been embarrassed."
+    hide js
 
-    "Silnce."
+    menu:
+        "\"I was. I just didn't show it.\""
+            show ist at center_char
+            inha "I was. I just didn't show it."
+            hide ist
+            show js at center_char
+            yejun "That's what I mean."
+            hide js
 
+        "\"I was angry. I got over it.\""
+            show ist at center_char
+            inha "I was angry. I got over it."
+            hide ist
+            show js at center_char
+            yejun "How long did that take?"
+            hide js
+            show ist at center_char
+            inha "About a week."
+            hide ist
+            show js at center_char
+            yejun "Faster than I expected."
+            hide js
+
+    show ist at center_char
     inha "Why did you come back?"
+    hide ist
+    show js at center_char
     yejun "My visa expired."
+    hide js
+    show ist at center_char
     inha "That's not what I mean."
+    hide ist
+    show js at center_char
     yejun "I know."
+    hide js
 
     "He looks at the sky."
+
+    show js at center_char
+    yejun "I don't have a better answer yet."
+    hide js
+
+    menu:
+        "\"That's okay.\""
+            show ist at center_char
+            inha "That's okay."
+            hide ist
+            show js at center_char
+            yejun "You're not going to push?"
+            hide js
+            show ist at center_char
+            inha "Would it help?"
+            hide ist
+            show js at center_char
+            yejun "No."
+            hide js
+            show ist at center_char
+            inha "Then no."
+            hide ist
+
+        "\"You'll tell me when you do.\""
+            show ist at center_char
+            inha "You'll tell me when you do."
+            hide ist
+            show js at center_char
+            yejun "Maybe."
+            hide js
+
+    thought "Somehow that's the most honest thing anyone has said to me in months."
 
     jump chapter7
