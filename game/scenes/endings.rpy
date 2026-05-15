@@ -6,82 +6,83 @@ label ending_a_final:
 
     scene school_exterior with fade
 
-    thought "The cherry blossoms are out."
-    thought "Which feels almost too on the nose."
-    thought "Like the universe decided today needed to look like a movie."
-    thought "The courtyard is full of people in caps and gowns."
-    thought "Parents with cameras."
-    thought "Teachers pretending not to cry."
-    thought "Everyone loud and warm and relieved."
+    "The cherry blossoms are out."
+    "Which feels almost too on the nose."
+    "Like the universe decided today needed to look like a movie."
+    "The courtyard is full of people in caps and gowns."
+    "Parents with cameras."
+    "Teachers pretending not to cry."
+    "Everyone loud and warm and relieved."
 
-    thought "I find Minji first."
-    thought "She's already crying."
+    "I find Minji first."
+    "She's already crying."
 
-    show inhaupset at center_char
+    show minjismiletalk at center_char
     minji "Don't say anything."
-    minji "I'm not sad. I'm just-"
-    minji "It's  lot."
+    minji "I'm not sad. I'm just—"
+    minji "It's a lot."
     minji "Three years."
     minji "That's a lot."
+    hide minjismiletalk
 
-    hide inhaupset
     show inhatalk at center_char
-
     inha "Yeah."
-
     hide inhatalk
-    show inhaquiet at center_char
 
-    thought "I hug her."
-    thought "She hugs me back hard."
-    thought "We stand like that for a moment."
+    "I hug her."
+    "She hugs me back hard."
+    "We stand like that for a moment."
 
+    show minjismiletalk at center_char
     minji "You got into the art program."
     minji "Not the one you originally wanted?"
+    hide minjismiletalk
 
-    hide inhaquiet
     show inhatalk at center_char
     inha "No."
     inha "A better one."
     hide inhatalk
+
     show minjismiletalk at center_char
     minji "Look at you."
     minji "Being happy about things."
     hide minjismiletalk
-    show minjismile at center_char
+
+    show inhatalk at center_char
     inha "Don't make it weird."
-    hide minjismiletalk
+    hide inhatalk
+
     show minjismiletalk at center_char
     minji "It's a little weird."
     minji "But in a good way."
     hide minjismiletalk
 
-    thought "The ceremony starts."
-    thought "Names called one by one."
-    thought "I walk acriss the stage."
-    thought "I take my diploma."
-    thought "I bow."
-    thought "I walk back."
-    thought "Done."
+    "The ceremony starts."
+    "Names called one by one."
+    "I walk across the stage."
+    "I take my diploma."
+    "I bow."
+    "I walk back."
+    "Done."
 
-    thought "Three years."
-    thought "All of it leading to this."
-    thought "A piece of paper and a handshake."
-    thought "And somehow it feels like enough."
+    "Three years."
+    "All of it leading to this."
+    "A piece of paper and a handshake."
+    "And somehow it feels like enough."
 
     scene school_rooftop with fade
 
-    thought "After the ceremony, I go up to the rooftop."
-    thought "Habit."
-    thought "I don't even think about it."
-    thought "My feet just go."
+    "After the ceremony I go up to the rooftop."
+    "Habit."
+    "I don't even think about it."
+    "My feet just go."
 
-    thought "He's already there."
-    thought "Of course, he is."
-    thought "Sitting on the ground."
-    thought "Diploma in his lap."
-    thought "Looking at the city."
-    
+    "He's already there."
+    "Of course he is."
+    "Sitting on the ground."
+    "Diploma in his lap."
+    "Looking at the city."
+
     show inhatalk at center_char
     inha "You skipped the group photo."
     hide inhatalk
@@ -90,73 +91,83 @@ label ending_a_final:
     yejun "I was in it."
     yejun "I left after."
     hide yejuntalk
-    show yejunquiet
+
+    show inhatalk at center_char
     inha "Your mom is going to be upset."
-    hide yejunquiet
+    hide inhatalk
+
     show yejuntalk at center_char
     yejun "My mom is talking to seventeen other moms."
     yejun "She won't notice for at least another hour."
     hide yejuntalk
 
-    thought "I sit down beside him."
-    thought "Same as always."
-    thought "Same hum."
-    thought "Same lights atarting to come on as the afternoon fades."
+    "I sit down beside him."
+    "Same city hum."
+    "Same lights starting to come on as the afternoon fades."
 
     show yejuntalk at center_char
     yejun "The composition program accepted me."
     yejun "My parents came around."
     yejun "My dad still thinks it's a phase though."
     hide yejuntalk
-    show yejunquiet at center_char
+
+    show inhatalk at center_char
     inha "Is it?"
-    hide yejunquiet
+    hide inhatalk
+
     show yejuntalk at center_char
     yejun "No."
     hide yejuntalk
-    show yejunquiet at center_char
+
+    show inhatalk at center_char
     inha "Then it's not a phase."
-    yejun "..."
-    hide yejunquiet
+    hide inhatalk
+
     show yejuntalk at center_char
     yejun "You got into the art program."
-    hide yejuntalk
-    show yejunquiet at center_char
-    inha "The one in Seoul."
-    hide yejunquiet
-    show yejuntalk at center_chaer
+    yejun "In Seoul."
     yejun "That's the same city as my program."
     hide yejuntalk
-    show yejunquiet at center_char
+
+    show inhatalk at center_char
     inha "I'm aware."
-    hide yejunquiet
+    hide inhatalk
+
     show yejuntalk at center_char
     yejun "In-Ha."
     hide yejuntalk
-    show yejunquiet at center_char
+
+    show inhatalk at center_char
     inha "Mm?"
-    hide yejunquiet
+    hide inhatalk
+
     show yejuntalk at center_char
-    yejun "I liked tou even when you were mean to me."
+    yejun "I liked you even when you were mean to me."
     hide yejuntalk
-    show yejunquiet at center_char
+
+    show inhatalk at center_char
     inha "..."
-    inha "You're bringing this up now?"
-    inha "On graduation day?"
-    inha "On the rooftop?"
-    hide yejunquiet
+    inha "You're bringing this up now."
+    inha "On graduation day."
+    inha "On the rooftop."
+    hide inhatalk
+
     show yejuntalk at center_char
-    yejun "I've been trying at it for three months."
+    yejun "I've been trying to say it for three months."
     hide yejuntalk
-    show yejunquiet at center_char
-    inha "Three months?"
-    hide yejunquiet
+
+    show inhatalk at center_char
+    inha "Three months."
+    hide inhatalk
+
     show yejuntalk at center_char
     yejun "You're intimidating."
     hide yejuntalk
-    show yejunquiet at center_char
-    yejun "I'm not intimidating."
-    hide yejunquiet
+
+    show inhatalk at center_char
+    inha "I'm not intimidating."
+    hide inhatalk
+
     show yejuntalk at center_char
     yejun "You really are."
     hide yejuntalk
@@ -177,15 +188,15 @@ label ending_a_final:
             yejun "I hoped."
             yejun "There's a difference."
             hide yejuntalk
-            show inhaquiet at center_char
+            show inhatalk at center_char
             inha "..."
-            hide inhaquiet
-            thought "I look at him."
-            thought "He looks back."
-            thought "The city hums below."
-            thought "Cherry blossoms drift up from the courtyard."
-            thought "One lands on his shoulder."
-            thought "I don't point it out."
+            hide inhatalk
+            "I look at him."
+            "He looks back."
+            "The city hums below."
+            "Cherry blossoms drift up from the courtyard."
+            "One lands on his shoulder."
+            "I don't point it out."
             show inhatalk at center_char
             inha "Seoul."
             hide inhatalk
@@ -199,14 +210,12 @@ label ending_a_final:
             yejun "I'm not making it anything."
             yejun "I'm just sitting here."
             hide yejuntalk
-            show inhaquiet at center_char
-            inha "..."
-            hide inhaquiet
             show inhatalk at center_char
+            inha "..."
             inha "Okay."
             hide inhatalk
-            thought "We sit there until Minji yells our names from the courtyard below."
-            thought "We don't move for another five minutes."
+            "We sit there until Minji yells our names from the courtyard below."
+            "We don't move for another five minutes."
 
         "\"You could have just said something sooner.\""
             show inhatalk at center_char
@@ -215,10 +224,8 @@ label ending_a_final:
             show yejuntalk at center_char
             yejun "So could you."
             hide yejuntalk
-            show inhaquiet at center_char
-            inha "..."
-            hide inhaquiet
             show inhatalk at center_char
+            inha "..."
             inha "Fair."
             hide inhatalk
             show yejuntalk at center_char
@@ -243,12 +250,9 @@ label ending_a_final:
             show yejuntalk at center_char
             yejun "We'll figure it out."
             hide yejuntalk
-            show inhaquiet at center_char
-            inha "..."
-            hide inhaquiet
             show inhatalk at center_char
-            inha "Yeah."
-            inha "We will."
+            inha "..."
+            inha "Yeah. We will."
             hide inhatalk
 
     scene black with fade
@@ -256,55 +260,39 @@ label ending_a_final:
     "— END: Route A —"
     "Graduation Day"
 
-label ending_b_final:
+    return
 
+label ending_b_final:
     scene black with fade
 
-    thought "One year later."
-    thought "Graduation day."
+    "One year later."
+    "Graduation day."
 
     scene school_exterior with fade
 
-    thought "It's warm."
-    thought "The kind of warm that feels like permission."
-    thought "Like the year finally exhaling."
+    "It's warm."
+    "The kind of warm that feels like permission."
+    "Like the year finally exhaling."
 
-    thought "Minji finds me before the ceremony."
-    thought "She's wearing her cap sideways."
-    thought "On purpose."
+    "Minji finds me before the ceremony."
+    "She's wearing her cap sideways. On purpose."
 
     show minjismiletalk at center_char
     minji "I decorated mine."
-    hide minjismiletalk
-
-    show minjismile at center_char
-    inha "I can see that."
-    hide minjismile
-
-    show minjismiletalk at center_char
     minji "It says 'finally' in rhinestones."
     hide minjismiletalk
 
-    show minjismile at center_char
+    show inhatalk at center_char
     inha "Of course it does."
-    hide minjismile
+    hide inhatalk
 
     show minjismiletalk at center_char
     minji "Are you okay?"
     hide minjismiletalk
 
-    show minjismile at center_char
-    inha "Yeah."
-    inha "Actually yeah."
-    hide minjismile
-
-    show minjismiletalk at center_char
-    minji "You got into the program."
-    hide minjismiletalk
-
-    show minjismile at center_char
-    inha "I got into the program."
-    hide minjismile
+    show inhatalk at center_char
+    inha "Yeah. Actually yeah."
+    hide inhatalk
 
     show minjismiletalk at center_char
     minji "And you're not going to spend the whole day measuring it against something else?"
@@ -318,72 +306,47 @@ label ending_b_final:
     minji "That's growth."
     hide minjismiletalk
 
-    thought "The ceremony is long."
-    thought "My feet hurt."
-    thought "The speech goes on for twenty minutes."
-    thought "I don't mind."
-    thought "I'm just here."
-    thought "Just present."
-    thought "That's new."
+    "The ceremony is long. My feet hurt."
+    "I don't mind."
+    "I'm just here. Just present."
+    "That's new."
 
     scene school_rooftop with fade
 
-    thought "I go up to the rooftop after."
-    thought "I have my sketchbook."
-    thought "I've been carrying it all day."
-    thought "I sit down and open it to the portrait."
+    "I go up to the rooftop after."
+    "I have my sketchbook."
+    "I sit down and open it to the portrait."
+    "His face. The snow. The eyes still blank."
+    "I've been looking at this page for months."
 
-    thought "His face."
-    thought "The snow."
-    thought "The eyes still blank."
-
-    thought "I've been looking at this page for months."
-    thought "Waiting until I understood them."
-
-    thought "Footsteps on the stairs."
+    "Footsteps on the stairs."
 
     show yejuntalk at center_char
     yejun "Minji said you'd be up here."
     hide yejuntalk
 
-    show yejunquiet at center_char
+    show inhatalk at center_char
     inha "Minji needs to stop telling people where I am."
-    hide yejunquiet
+    hide inhatalk
 
     show yejuntalk at center_char
-    yejun "She said to tell you congratulations."
-    yejun "And also that you owe her ramyeon."
+    yejun "She said congratulations."
+    yejun "And that you owe her ramyeon."
     hide yejuntalk
 
-    show yejunquiet at center_char
+    show inhatalk at center_char
     inha "I don't owe her ramyeon."
-    hide yejunquiet
+    hide inhatalk
 
-    show yejuntalk at center_char
-    yejun "She said you'd say that."
-    yejun "She said to tell you that you do."
-    hide yejuntalk
-
-    thought "He sits down."
-    thought "He sees the sketchbook."
-    thought "He sees the portrait."
-    thought "He doesn't say anything for a moment."
+    "He sits down. He sees the sketchbook."
 
     show yejuntalk at center_char
     yejun "The eyes."
     hide yejuntalk
 
-    show yejunquiet at center_char
+    show inhatalk at center_char
     inha "Still not finished."
-    hide yejunquiet
-
-    show yejuntalk at center_char
-    yejun "Can I ask you something?"
-    hide yejuntalk
-
-    show yejunquiet at center_char
-    inha "Mm."
-    hide yejunquiet
+    hide inhatalk
 
     show yejuntalk at center_char
     yejun "What are you waiting to understand?"
@@ -391,61 +354,149 @@ label ending_b_final:
 
     menu:
         "\"What you actually want.\""
-            show yejunquiet at center_char
+            show inhatalk at center_char
             inha "What you actually want."
             inha "Not what you're supposed to want."
-            inha "What you want."
-            yejun "..."
             inha "You spent so long performing."
             inha "I don't know what's underneath yet."
-            hide yejunquiet
+            hide inhatalk
             show yejuntalk at center_char
-            yejun "Neither do I."
-            yejun "Sometimes."
+            yejun "Neither do I. Sometimes."
             hide yejuntalk
-            show yejunquiet at center_char
-            inha "I know."
+            show inhatalk at center_char
             inha "That's why the eyes aren't finished."
-            yejun "..."
-            hide yejunquiet
+            hide inhatalk
             show yejuntalk at center_char
             yejun "Will you tell me when you figure it out?"
             hide yejuntalk
-            show yejunquiet at center_char
+            show inhatalk at center_char
             inha "You'll be the first to know."
-            hide yejunquiet
+            hide inhatalk
 
         "\"Whether you're going to be okay.\""
-            show yejunquiet at center_char
+            show inhatalk at center_char
             inha "Whether you're going to be okay."
-            yejun "..."
-            hide yejunquiet
-            show yejuntalk at center_char
-            yejun "That's what you see when you look at me?"
-            hide yejuntalk
-            show yejunquiet at center_char
-            inha "Sometimes."
-            hide yejunquiet
+            hide inhatalk
             show yejuntalk at center_char
             yejun "I'm going to be okay."
             hide yejuntalk
-            show yejunquiet at center_char
+            show inhatalk at center_char
             inha "I know."
             inha "But I want to see it."
-            inha "In your eyes."
-            inha "Before I paint them."
-            thought "He looks at me."
-            thought "Really looks."
-            show inhaquiet at center_char
+            inha "In your eyes. Before I paint them."
+            hide inhatalk
+            "He looks at me. Really looks."
+            show inhatalk at center_char
             inha "..."
-            hide inhaquiet
-            thought "I pick up my pencil."
-            thought "I start on the eyes."
+            hide inhatalk
+            "I pick up my pencil."
+            "I start on the eyes."
 
     scene black with fade
 
-    thought "— END: Route B —"
-    thought "Graduation Day"
+    "— END: Route B —"
+    "Graduation Day"
 
     return
 
+label ending_c_final:
+    scene black with fade
+
+    "One year later. Graduation day."
+
+    scene school_rooftop with fade
+
+    "He's on the roof after the ceremony."
+    "I sit down beside him."
+
+    show yejuntalk at center_char
+    yejun "How are you."
+    hide yejuntalk
+
+    menu:
+        "\"Getting there.\""
+            show inhatalk at center_char
+            inha "Getting there."
+            hide inhatalk
+            show yejuntalk at center_char
+            yejun "That's enough."
+            hide yejuntalk
+
+        "\"Better than last month.\""
+            show inhatalk at center_char
+            inha "Better than last month."
+            hide inhatalk
+            show yejuntalk at center_char
+            yejun "Good."
+            hide yejuntalk
+
+    show yejuntalk at center_char
+    yejun "Seoul. Same city. Is that okay?"
+    hide yejuntalk
+
+    menu:
+        "\"More than okay.\""
+            show inhatalk at center_char
+            inha "More than okay."
+            hide inhatalk
+            show yejuntalk at center_char
+            yejun "We'll figure the rest out."
+            hide yejuntalk
+
+        "\"Ask me again in Seoul.\""
+            show inhatalk at center_char
+            inha "Ask me again in Seoul."
+            hide inhatalk
+            show yejuntalk at center_char
+            yejun "I'll hold you to that."
+            hide yejuntalk
+
+    scene black with fade
+    "— END: Route C —"
+    return
+
+label ending_d_final:
+    scene black with fade
+
+    "One year later. Graduation day."
+
+    scene school_rooftop with fade
+
+    "He left in February."
+    "He texted for a while. Then less."
+    "I'm not angry. I'm just carrying it."
+
+    "I sit on the rooftop alone after the ceremony."
+    "My phone buzzes."
+
+    show yejuntalk at center_char
+    yejun "Congratulations."
+    yejun "Maybe I'll see you around. Seoul."
+    hide yejuntalk
+
+    menu:
+        "\"Maybe you will.\""
+            show inhatalk at center_char
+            inha "Maybe you will."
+            hide inhatalk
+            show yejuntalk at center_char
+            yejun "I'd like that."
+            hide yejuntalk
+            "I put my phone down."
+            "I open my sketchbook to the portrait."
+            "I draw the outline of his eyes."
+            "Just the outline. A start."
+
+        "\"Don't maybe. Just come find me.\""
+            show inhatalk at center_char
+            inha "Don't maybe. Just come find me."
+            hide inhatalk
+            show yejuntalk at center_char
+            yejun "Okay."
+            hide yejuntalk
+            "Somewhere in that city— him."
+            "That's enough. For now."
+
+    scene black with fade
+    "— END: Route D —"
+    return
