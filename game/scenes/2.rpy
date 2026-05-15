@@ -4,24 +4,18 @@ label chapter1:
     thought "December."
     thought "Cold enough that my breath fogs the moment I step outside."
     thought "The academy district is all fluorescent light and hurrying people."
-
     thought "My shoelace comes undone at the crosswalk."
     thought "I crouch down to tie it."
     thought "Stand back up."
     thought "And—"
-
     thought "..."
-
     thought "There is a person standing on the other side of the road."
-    thought "Tall." 
-    thought "Black coat."
+    thought "Tall. Black coat."
     thought "Snow just starting to fall around him."
     thought "He looks up from his phone."
     thought "Directly at me."
-
     thought "Noh Ye-Jun."
     thought "It's actually him."
-
     thought "The light is red."
     thought "Neither of us moves."
 
@@ -30,7 +24,7 @@ label chapter1:
     hide yejuntalk
 
     menu:
-        "\"But you don't.\""
+        "\"But you don't.\"":
             show yejunquiet at center_char
             inha "You don't."
             yejun "..."
@@ -39,8 +33,8 @@ label chapter1:
             yejun "No. I don't."
             hide yejuntalk
 
-        "Say nothing."
-            show yejunquiet
+        "Say nothing.":
+            show yejunquiet at center_char
             thought "I don't know what to say."
             thought "So I say nothing."
             hide yejunquiet
@@ -48,9 +42,8 @@ label chapter1:
             yejun "It's been a while."
             hide yejuntalk
 
-    thought "The light turn green."
+    thought "The light turns green."
     thought "We cross in opposite directions."
-
     thought "I don't look back."
     thought "..."
     thought "I looked back."
@@ -62,8 +55,7 @@ label chapter2:
     scene classroom with fade
 
     thought "Three days later."
-    thought "He transfered into my academy."
-
+    thought "He transferred into my academy."
     thought "Of course he does."
 
     show minjismiletalk at center_char
@@ -79,7 +71,7 @@ label chapter2:
     hide minjismiletalk
 
     menu:
-        "\"We grew up next door to each other.\""
+        "\"We grew up next door to each other.\"":
             show minjiquiet at center_char
             inha "We grew up next door to each other."
             hide minjiquiet
@@ -90,10 +82,10 @@ label chapter2:
             inha "It didn't come up."
             hide minjiquiet
 
-        "\"It doesn't matter.\""
+        "\"It doesn't matter.\"":
             show minjiquiet at center_char
             inha "It doesn't matter. I just know him."
-            hide minjismilequiet
+            hide minjiquiet
             show minjismiletalk at center_char
             minji "That is so unsatisfying."
             hide minjismiletalk
@@ -102,12 +94,10 @@ label chapter2:
     thought "The classroom shifts around him."
     thought "He doesn't perform. Doesn't look around."
     thought "Just sits down and opens his notebook."
-
     thought "He was always like that."
     thought "Effortless."
     thought "I used to find it annoying."
     thought "I still do."
-
     thought "I open my sketchbook."
     thought "Draw a line."
     thought "Cross it out."
@@ -117,10 +107,9 @@ label chapter2:
 label chapter3:
     scene academy_night with fade
 
-    thought "Late." 
+    thought "Late."
     thought "Everyone has gone home."
     thought "I forgot my sketchbook in the studio."
-
     thought "I push open the door."
     thought "Lights still on."
     thought "Ye-Jun is sitting at the back table."
@@ -130,14 +119,8 @@ label chapter3:
     inha "Hey—!"
     hide yejunquiet
 
-    scene sketch at bg_fit
-    thought "Shit!"
-    thought "Oh no!"
-    thought "No."
-    thought "No. No."
-
     show yejuntalk at center_char
-    yejun "Sorry." 
+    yejun "Sorry."
     yejun "I found it by the door."
     yejun "I opened it to check for a name."
     hide yejuntalk
@@ -149,7 +132,7 @@ label chapter3:
     thought "How much did he see."
 
     menu:
-        "\"It's fine. They're just sketches.\""
+        "\"It's fine. They're just sketches.\"":
             inha "It's fine. They're just sketches."
             hide yejunquiet
             show yejuntalk at center_char
@@ -160,15 +143,12 @@ label chapter3:
             hide yejunquiet
             show yejuntalk at center_char
             yejun "I mean it."
-            yejun "Just a bit abstract."
-            yejun "Who was the devil you drew."
-            yejun "Was it me lol?"
             hide yejuntalk
             show yejunquiet at center_char
             inha "I said don't."
             hide yejunquiet
 
-        "\"You shouldn't have opened it.\""
+        "\"You shouldn't have opened it.\"":
             inha "You shouldn't have opened it."
             hide yejunquiet
             show yejuntalk at center_char
@@ -180,8 +160,7 @@ label chapter3:
             hide yejunquiet
 
     thought "I grab the sketchbook and leave."
-    thought 4"I don't look back."
-
+    thought "I don't look back."
     thought "Pages titled 'Not Enough.'"
     thought "'Second Place.'"
     thought "'If I disappeared, would anyone notice?'"
@@ -199,7 +178,6 @@ label chapter4:
     thought "He never eats with anyone."
     thought "He stares at his phone but never types."
     thought "He answers teachers correctly and then goes quiet again immediately."
-
     thought "Tired."
     thought "Not exam-tired."
     thought "The kind of tired that comes from performing the same role for too long."
@@ -210,14 +188,14 @@ label chapter4:
     show minjiquiet at center_char
 
     menu:
-        "\"I'm thinking about the exam.\""
+        "\"I'm thinking about the exam.\"":
             inha "I'm thinking about the exam."
             hide minjiquiet
             show minjismiletalk at center_char
             minji "He is not the exam."
             hide minjismiletalk
 
-        "\"Does he always look that tired?\""
+        "\"Does he always look that tired?\"":
             inha "Does he always look that tired?"
             hide minjiquiet
             show minjismiletalk at center_char
@@ -236,17 +214,15 @@ label chapter4:
     show minjismiletalk at center_char
     minji "Dropped. Gone. Never existed."
     hide minjismiletalk
-    show minjiquiet at center_char
 
     thought "She will bring it up again within the hour."
-    hide minjiquiet
 
     jump chapter5
 
 label chapter5:
     scene rooftop with fade
 
-    thought "I find him on the rooftop." 
+    thought "I find him on the rooftop."
     thought "By accident."
     thought "I came up here to be alone."
     thought "He's lying on the ground, jacket under his head, eyes closed."
@@ -260,11 +236,9 @@ label chapter5:
     show yejuntalk at center_char
     yejun "I heard you the first time."
     hide yejuntalk
-
     show yejunquiet at center_char
     inha "Then why didn't you answer?"
     hide yejunquiet
-
     show yejuntalk at center_char
     yejun "I was deciding if I wanted to."
     hide yejuntalk
@@ -277,11 +251,11 @@ label chapter5:
     show yejunquiet at center_char
 
     menu:
-        "Sit down nearby."
+        "Sit down nearby.":
             thought "I sit down."
             thought "Closer than I planned."
 
-        "Sit down far away."
+        "Sit down far away.":
             thought "I sit on the opposite end."
             thought "He doesn't say anything."
 
@@ -295,10 +269,10 @@ label chapter5:
     show yejuntalk at center_char
     yejun "You come up here often?"
     hide yejuntalk
-    show yehunquiet at center_char
+    show yejunquiet at center_char
 
     menu:
-        "\"When it gets too loud downstairs.\""
+        "\"When it gets too loud downstairs.\"":
             inha "When it gets too loud downstairs."
             inha "My own head, mostly."
             hide yejunquiet
@@ -307,7 +281,7 @@ label chapter5:
             hide yejuntalk
             show yejunquiet at center_char
 
-        "\"This is my first time.\""
+        "\"This is my first time.\"":
             inha "This is my first time actually."
             hide yejunquiet
             show yejuntalk at center_char
@@ -338,14 +312,14 @@ label chapter6:
     show yejunquiet at center_char
 
     menu:
-        "\"I was. I just didn't show it.\""
+        "\"I was. I just didn't show it.\"":
             inha "I was. I just didn't show it."
             hide yejunquiet
             show yejuntalk at center_char
             yejun "That's what I mean."
             hide yejuntalk
 
-        "\"I was angry. I got over it.\""
+        "\"I was angry. I got over it.\"":
             inha "I was angry. I got over it."
             hide yejunquiet
             show yejuntalk at center_char
@@ -379,7 +353,7 @@ label chapter6:
     show yejunquiet at center_char
 
     menu:
-        "\"That's okay.\""
+        "\"That's okay.\"":
             inha "That's okay."
             hide yejunquiet
             show yejuntalk at center_char
@@ -395,14 +369,12 @@ label chapter6:
             inha "Then no."
             hide yejunquiet
 
-        "\"You'll tell me when you do.\""
+        "\"You'll tell me when you do.\"":
             inha "You'll tell me when you do."
             hide yejunquiet
             show yejuntalk at center_char
             yejun "Maybe."
             hide yejuntalk
-            
-    show yejunquiet at center_char
 
     thought "Somehow that's the most honest thing anyone has said to me in months."
 

@@ -24,18 +24,16 @@ label prologue:
 
     show inhasad at center_char
     inha "Don't cry."
-    inha "Atleast not here."
+    inha "At least not here."
     inha "Not in front of everyone..."
+    hide inhasad
 
-    hide inhatalk
     show inhaquiet at center_char
-
     thought "My phone buzzes."
     thought "Mom."
-
     hide inhaquiet
-    show inhatalk at center_char
 
+    show inhatalk at center_char
     inha "Hello?"
     hide inhatalk
     show inhaquiet at center_char
@@ -47,42 +45,39 @@ label prologue:
     show inhaquiet at center_char
     mom "I know, I know. But listen—"
     mom "Ye-Jun's mom just moved back to the neighborhood."
-    mom "She called me this morning." 
+    mom "She called me this morning."
     mom "She wants to have dinner together~"
     thought "Ye-Jun...?"
     mom "You remember Ye-Jun, right? Noh Ye-Jun?"
     mom "You two were inseparable when you were little!"
+    hide inhaquiet
 
-    hide inhatalk
-    screen black
+    scene black with fade
 
     thought "Ye-Jun."
     thought "Eight years old."
     thought "Sitting on the floor of his living room."
 
     show yejunsmalltalk at center_char
-
     yejun "In-Ha, look at mine!"
-    yejun "I drew a robot." 
+    yejun "I drew a robot."
     yejun "Does it look cool?"
-
     hide yejunsmalltalk
-    screen black
+
+    scene black with fade
 
     thought "He always wanted my opinion on everything."
     thought "Drew beside me every afternoon for three years."
-
-    show background bg 
     thought "Then one day...."
     thought "He was just gone..."
     thought "Canada, they said."
     thought "Better opportunities."
 
-    show inhaquiet    
+    show inhaquiet at center_char
     mom "He's back now, apparently!"
     mom "His mom says he grew up so handsome~"
-
     hide inhaquiet
+
     show inhatalk at center_char
     inha "Mm."
     hide inhatalk
@@ -105,11 +100,11 @@ label prologue:
     show minjismile at center_char
 
     menu:
-        "\"I'm fine.\""
+        "\"I'm fine.\"":
             inha "I'm fine."
             inha "Let's just go."
             hide minjismile
-            show minjismiletalk
+            show minjismiletalk at center_char
             minji "You're doing the thing where you say you're fine but your eye is twitching."
             hide minjismiletalk
             show minjismile at center_char
@@ -117,14 +112,16 @@ label prologue:
             hide minjismile
             show minjismiletalk at center_char
             minji "It's twitching a little."
+            hide minjismiletalk
 
-        "\"I don't want to talk about it.\""
+        "\"I don't want to talk about it.\"":
             inha "I don't want to talk about it."
             hide minjismile
             show minjismiletalk at center_char
-            minji "Okay..." 
+            minji "Okay..."
             minji "We won't talk about it."
             minji "We'll just walk and I'll talk about something else entirely."
+            hide minjismiletalk
 
     show minjismiletalk at center_char
     minji "Did you hear about Si-Hyeon by the way?"
@@ -141,7 +138,7 @@ label prologue:
     hide minjismiletalk
 
     menu:
-        "\"That's her choice.\""
+        "\"That's her choice.\"":
             show minjismile at center_char
             inha "I mean... it's her life."
             hide minjismile
@@ -149,7 +146,7 @@ label prologue:
             minji "Her life that is currently on fire, yes."
             hide minjismiletalk
 
-        "\"I don't understand how anyone has time for that.\""
+        "\"I don't understand how anyone has time for that.\"":
             show minjismile at center_char
             inha "I genuinely don't understand how people have the mental space for that right now."
             inha "Every second counts."
@@ -200,7 +197,6 @@ label prologue:
 
     thought "The crosswalk."
     thought "Red light."
-
     thought "..."
 
     show yejunquiet at center_char

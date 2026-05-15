@@ -21,7 +21,7 @@ label chapter7:
     hide yejuntalk
 
     menu:
-        "\"Did it ever?\""
+        "\"Did it ever?\"":
             show yejunquiet at center_char
             inha "Did it ever?"
             hide yejunquiet
@@ -30,7 +30,7 @@ label chapter7:
             yejun "Not once."
             hide yejuntalk
 
-        "\"That sounds exhausting.\""
+        "\"That sounds exhausting.\"":
             show yejunquiet at center_char
             inha "That sounds exhausting."
             hide yejunquiet
@@ -52,7 +52,7 @@ label chapter7:
     thought "All this time."
 
     menu:
-        "\"Your robots were terrible.\""
+        "\"Your robots were terrible.\"":
             inha "Your robots were genuinely terrible."
             hide yejunquiet
             show yejuntalk at center_char
@@ -68,7 +68,7 @@ label chapter7:
             thought "He almost smiles."
             thought "Almost."
 
-        "\"I never believed you when you said mine were better.\""
+        "\"I never believed you when you said mine were better.\"":
             inha "I never believed you."
             inha "I thought you were just being nice."
             hide yejunquiet
@@ -90,6 +90,7 @@ label chapter7:
 
 label chapter8:
     scene classroom with fade
+
     show minjiquiet at center_char
 
     thought "Mock exam results."
@@ -107,7 +108,7 @@ label chapter8:
     hide minjismiletalk
 
     menu:
-        "\"It's not first.\""
+        "\"It's not first.\"":
             show minjiquiet at center_char
             inha "It's not first."
             hide minjiquiet
@@ -118,16 +119,12 @@ label chapter8:
             inha "I'm fine."
             hide minjiquiet
 
-        "Walk away without responding."
-            show minjiquiet at center_char
+        "Walk away without responding.":
             thought "I walk away."
-            hide minjiquiet
             show minjismiletalk at center_char
             minji "In-Ha. Hey—"
             hide minjismiletalk
-            show minjiquiet at center_char
             thought "I keep walking."
-            hide minjismilequiet
 
     thought "I'm not fine."
     thought "I go to the bathroom."
@@ -136,7 +133,6 @@ label chapter8:
     thought "Count to ten."
     thought "Go back out."
     thought "Smile."
-
     thought "This is fine."
     thought "I just have to work harder."
     thought "That's all."
@@ -152,8 +148,8 @@ label chapter9:
     thought "Properly raining."
     thought "We're both getting wet."
     thought "Neither of us suggests going inside."
-    inha "I heard your parents want you to do medicine."
 
+    inha "I heard your parents want you to do medicine."
     hide yejunquiet
     show yejuntalk at center_char
     yejun "Where did you hear that?"
@@ -163,44 +159,39 @@ label chapter9:
     hide yejunquiet
     show yejuntalk at center_char
     yejun "Yeah..."
-    yejun "Medicine." 
-    thought "Stable.. respectable.. and impressive."
+    yejun "Medicine."
+    yejun "Stable, respectable, and impressive."
     yejun "The full set."
     hide yejuntalk
-
     show yejunquiet at center_char
     inha "But you compose music."
     hide yejunquiet
-
     show yejuntalk at center_char
     yejun "I used to."
     hide yejuntalk
-
     show yejunquiet at center_char
     inha "You have everything."
     inha "Grades, talent, options."
     inha "And you're just going to give it up?"
     hide yejunquiet
-
-    show yejunquiet at center_char
+    show yejuntalk at center_char
     yejun "Then why do I feel empty?"
-    hide yejunquiet
+    hide yejuntalk
 
     thought "Silence."
     thought "Rain."
 
-    hide yejunquiet
     show yejuntalk at center_char
     yejun "You think I was looking down on you all these years?"
     hide yejuntalk
 
     menu:
-        "\"Weren't you?\""
+        "\"Weren't you?\"":
             show yejunquiet at center_char
             inha "Weren't you?"
             hide yejunquiet
 
-        "\"I don't know what I think.\""
+        "\"I don't know what I think.\"":
             show yejunquiet at center_char
             inha "I don't know what I think."
             hide yejunquiet
@@ -210,12 +201,10 @@ label chapter9:
 
     show yejuntalk at center_char
     yejun "I was jealous of you."
-    hide yejunquiet
-
+    hide yejuntalk
     show yejunquiet at center_char
     inha "That's not funny."
     hide yejunquiet
-
     show yejuntalk at center_char
     yejun "I'm not joking."
     yejun "You drew because you loved it."
@@ -227,7 +216,7 @@ label chapter9:
     hide yejuntalk
 
     menu:
-        "\"That's not something to be jealous of.\""
+        "\"That's not something to be jealous of.\"":
             show yejunquiet at center_char
             inha "That's not something to be jealous of."
             inha "Loving something doesn't mean you're good enough at it."
@@ -238,13 +227,14 @@ label chapter9:
             show yejunquiet at center_char
             inha "You don't know that."
             hide yejunquiet
-            show js at center_char
+            show yejuntalk at center_char
             yejun "I've seen your sketchbook."
+            hide yejuntalk
+            show yejunquiet at center_char
             inha "..."
             hide yejunquiet
 
-        "Say nothing."
-            scene black
+        "Say nothing.":
             thought "I don't say anything."
             thought "Because I don't know if he's right."
             thought "About me."
@@ -273,26 +263,25 @@ label chapter10:
     show yejunquiet at center_char
     inha "You're humming again."
     hide yejunquiet
-
     show yejuntalk at center_char
     yejun "Sorry."
     hide yejuntalk
 
     menu:
-        "\"Don't be. What is it?\""
+        "\"Don't be. What is it?\"":
             show yejunquiet at center_char
             inha "Don't be. What is it?"
             hide yejunquiet
 
-        "\"It's a little distracting.\""
-            show yejunquiet  at center_char
+        "\"It's a little distracting.\"":
+            show yejunquiet at center_char
             inha "It's a little distracting."
             hide yejunquiet
             show yejuntalk at center_char
             yejun "I'll stop."
-            inha "..."
             hide yejuntalk
             show yejunquiet at center_char
+            inha "..."
             inha "What is it though?"
             hide yejunquiet
 
@@ -300,11 +289,9 @@ label chapter10:
     yejun "Something I've been working on."
     yejun "It doesn't have a name yet."
     hide yejuntalk
-
     show yejunquiet at center_char
     inha "What does it sound like?"
     hide yejunquiet
-
     show yejuntalk at center_char
     yejun "Like winter."
     yejun "But the part of winter that's almost spring."
@@ -314,7 +301,6 @@ label chapter10:
 
     thought "I want to hear the whole thing."
     thought "I don't say that."
-
     thought "He goes back to his notebook."
     thought "I go back to my canvas."
     thought "The studio is quiet except for the scratch of pencil and brush."
@@ -333,25 +319,23 @@ label chapter11:
     show minjismiletalk at center_char
     minji "I need you to be honest with me."
     hide minjismiletalk
-
     show minjiquiet at center_char
     inha "About what?"
     hide minjiquiet
-
-    show minjiquiet at center_char
+    show minjismiletalk at center_char
     minji "Ye-Jun."
     hide minjismiletalk
 
     menu:
-        "\"What about him?\""
-            show minjismile at center_char
+        "\"What about him?\"":
+            show minjiquiet at center_char
             inha "What about him?"
-            hide minjismiletalk
+            hide minjiquiet
 
-        "\"I knew this was coming.\""
-            show minjismile at center_char
+        "\"I knew this was coming.\"":
+            show minjiquiet at center_char
             inha "I knew this was coming."
-            hide minjismile
+            hide minjiquiet
             show minjismiletalk at center_char
             minji "Then you're prepared."
             hide minjismiletalk
@@ -359,63 +343,57 @@ label chapter11:
     show minjismiletalk at center_char
     minji "You like him."
     hide minjismiletalk
-
-    show minjismile at center_char
+    show minjiquiet at center_char
     inha "I don't."
-    hide minjismile
-
+    hide minjiquiet
     show minjismiletalk at center_char
     minji "You brought him coffee this morning."
     hide minjismiletalk
-
-    show minjismile at center_char
+    show minjiquiet at center_char
     inha "I brought two coffees and he was there."
-    hide minjismile
-
+    hide minjiquiet
     show minjismiletalk at center_char
     minji "You remembered he takes it without sugar."
     hide minjismiletalk
-    show minjismile at center_char
+    show minjiquiet at center_char
     inha "..."
-    hide minjismile
-    show minjismilequiet at center_char
+    hide minjiquiet
+    show minjismiletalk at center_char
     minji "You told me you don't even remember how I take mine."
-    hide minjismilequiet
-
-    show minjismile at center_char
+    hide minjismiletalk
+    show minjiquiet at center_char
     inha "You change it every week."
-    hide minjismile
-
+    hide minjiquiet
     show minjismiletalk at center_char
     minji "In-Ha."
     hide minjismiletalk
 
     menu:
-        "\"I don't want to talk about this.\""
-            show minjismile at center_char
+        "\"I don't want to talk about this.\"":
+            show minjiquiet at center_char
             inha "I don't want to talk about this."
-            hide minjismile
+            hide minjiquiet
             show minjismiletalk at center_char
             minji "That is basically a confession."
             hide minjismiletalk
-            show minjismile at center_char
+            show minjiquiet at center_char
             inha "It is not a confession."
-            hide minjismile
+            hide minjiquiet
             show minjismiletalk at center_char
             minji "Confession-adjacent."
             hide minjismiletalk
 
-        "\"Even if I did— it doesn't matter right now.\""
-            show minjismile at center_char
+        "\"Even if I did— it doesn't matter right now.\"":
+            show minjiquiet at center_char
             inha "Even if I did— it doesn't matter."
             inha "We have exams. I don't have time for this."
-            hide minjismile
+            hide minjiquiet
             show minjismiletalk at center_char
             minji "You're going to be so lonely when you're successful."
-            hide minjissmiletalk
-            show minjismile at center_char
+            hide minjismiletalk
+            show minjiquiet at center_char
             inha "I'll be fine."
-            hide minjismile
+            hide minjiquiet
             show minjismiletalk at center_char
             minji "That's what lonely people say."
             hide minjismiletalk
@@ -432,19 +410,18 @@ label chapter12:
     inha "When we were kids—"
     inha "Did you actually think I was good at drawing?"
     inha "Or were you just being nice?"
-    hide yeunquiet
-
+    hide yejunquiet
     show yejuntalk at center_char
     yejun "Why does it matter now?"
     hide yejuntalk
 
     menu:
-        "\"It's always mattered.\""
+        "\"It's always mattered.\"":
             show yejunquiet at center_char
             inha "It's always mattered."
             hide yejunquiet
 
-        "\"I just want to know. Honestly.\""
+        "\"I just want to know. Honestly.\"":
             show yejunquiet at center_char
             inha "I just want to know."
             inha "Honestly."
@@ -456,15 +433,13 @@ label chapter12:
             inha "Honestly."
             hide yejunquiet
 
-    show yejunquiet at center_char
+    show yejuntalk at center_char
     yejun "I thought you were the best artist I'd ever seen."
     yejun "I still do."
-    hide yejunquiet
-
+    hide yejuntalk
     show yejunquiet at center_char
     inha "You've seen real artists since then."
     hide yejunquiet
-
     show yejuntalk at center_char
     yejun "I know what I think."
     hide yejuntalk
@@ -473,7 +448,6 @@ label chapter12:
     thought "I look at him."
     thought "He looks back."
     thought "Neither of us looks away."
-
     thought "This is dangerous."
     thought "I know exactly what this is."
     thought "And I don't move."
@@ -481,14 +455,14 @@ label chapter12:
     hide yejunquiet
 
     menu:
-        "Look away first."
+        "Look away first.":
             show yejunquiet at center_char
             inha "..."
             hide yejunquiet
             thought "I look back at the city."
             thought "My heart is doing something I don't have words for."
 
-        "Don't look away."
+        "Don't look away.":
             "I don't look away."
             show yejunquiet at center_char
             yejun "..."
@@ -496,6 +470,7 @@ label chapter12:
             thought "Down at his hands."
             thought "I don't know what that means."
             thought "I think about it for the rest of the day."
+            hide yejunquiet
 
     jump chapter13
 
@@ -505,7 +480,6 @@ label chapter13:
     thought "He brings his composition notebook one evening."
     thought "Sets it on the table between us without saying anything."
     thought "Just opens it."
-
     thought "Pages of musical notation."
     thought "Margins full of notes to himself."
     thought "Arrows. Question marks."
@@ -515,78 +489,72 @@ label chapter13:
     inha "This part—"
     inha "What does this feel like when you play it?"
     hide yejunsmile
-
-    show yejunsmiletalk at center_char
+    show yejuntalkhappy at center_char
     yejun "That part is you, actually."
-    hide yejunsmiletalk
-
+    hide yejuntalkhappy
     show yejunsmile at center_char
     inha "Me?"
     hide yejunsmile
-
-    show yejunsmiletalk at center_char
+    show yejuntalkhappy at center_char
     yejun "The part that almost resolves and then doesn't."
     yejun "It keeps getting close and then pulling back."
     yejun "Like it's not ready yet."
-    hide yejunsmiletalk
+    hide yejuntalkhappy
 
     menu:
-        "\"That's not flattering.\""
+        "\"That's not flattering.\"":
             show yejunsmile at center_char
             inha "That's not exactly flattering."
             hide yejunsmile
-            show yejunsmiletalk at center_char
+            show yejuntalkhappy at center_char
             yejun "It's my favorite part of the piece."
-            hide yejunsmiletalk
+            hide yejuntalkhappy
             show yejunsmile at center_char
             inha "..."
             hide yejunsmile
-            show yejunsmile at center_char
             thought "I don't know what to do with that."
 
-        "\"Does it ever resolve?\""
+        "\"Does it ever resolve?\"":
             show yejunsmile at center_char
             inha "Does it ever resolve?"
             hide yejunsmile
-            show yejunsmiletalk at center_char
+            show yejuntalkhappy at center_char
             yejun "Eventually."
             yejun "I haven't written that part yet."
-            hide yejunsmiletalk
-            show yejunsmile at center_char
+            hide yejuntalkhappy
             thought "Eventually."
             thought "I sit with that word for a moment."
 
+    show yejunsmile at center_char
     inha "Can I hear it?"
     hide yejunsmile
-
-    show yejunsmiletalk at center_char
+    show yejuntalkhappy at center_char
     yejun "It's not finished."
-    hide yejunsmiletalk
+    hide yejuntalkhappy
 
     menu:
-        "\"I don't mind.\""
+        "\"I don't mind.\"":
             show yejunsmile at center_char
             inha "I don't mind."
-            yejun "..."
             hide yejunsmile
-            show yejunsmiletalk
+            show yejuntalkhappy at center_char
+            yejun "..."
             yejun "Okay."
-            hide yejunsmiletalk
+            hide yejuntalkhappy
 
-        "\"Unfinished things are more honest anyway.\""
+        "\"Unfinished things are more honest anyway.\"":
             show yejunsmile at center_char
             inha "Unfinished things are more honest anyway."
-            yejun "..."
             hide yejunsmile
-            show yejunsmiletalk at center_char
+            show yejuntalkhappy at center_char
+            yejun "..."
             yejun "Yeah."
             yejun "They are."
-            hide yejunsmiletalk
+            hide yejuntalkhappy
 
     thought "He hums it quietly."
     thought "Just the melody."
     thought "Just his voice in the empty studio."
-
     thought "..."
     thought "I hate him."
     thought "I don't hate him at all."

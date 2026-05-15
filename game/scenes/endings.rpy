@@ -265,17 +265,17 @@ label ending_a_final:
 label ending_b_final:
     scene black with fade
 
-    "One year later."
-    "Graduation day."
+    thought "One year later."
+    thought "Graduation day."
 
     scene school_exterior with fade
 
-    "It's warm."
-    "The kind of warm that feels like permission."
-    "Like the year finally exhaling."
+    thought "It's warm."
+    thought "The kind of warm that feels like permission."
+    thought "Like the year finally exhaling."
 
-    "Minji finds me before the ceremony."
-    "She's wearing her cap sideways. On purpose."
+    thought "Minji finds me before the ceremony."
+    thought "She's wearing her cap sideways. On purpose."
 
     show minjismiletalk at center_char
     minji "I decorated mine."
@@ -306,20 +306,19 @@ label ending_b_final:
     minji "That's growth."
     hide minjismiletalk
 
-    "The ceremony is long. My feet hurt."
-    "I don't mind."
-    "I'm just here. Just present."
-    "That's new."
+    thought "The ceremony is long. My feet hurt."
+    thought "I don't mind."
+    thought "I'm just here. Just present."
+    thought "That's new."
 
     scene school_rooftop with fade
 
-    "I go up to the rooftop after."
-    "I have my sketchbook."
-    "I sit down and open it to the portrait."
-    "His face. The snow. The eyes still blank."
-    "I've been looking at this page for months."
+    thought "I go up to the rooftop after."
+    thought "I have my sketchbook."
+    thought "I sit down and open it to the portrait."
+    thought "I've been looking at this page for months."
 
-    "Footsteps on the stairs."
+    thought "Footsteps on the stairs."
 
     show yejuntalk at center_char
     yejun "Minji said you'd be up here."
@@ -338,7 +337,7 @@ label ending_b_final:
     inha "I don't owe her ramyeon."
     hide inhatalk
 
-    "He sits down. He sees the sketchbook."
+    thought "He sits down. He sees the sketchbook."
 
     show yejuntalk at center_char
     yejun "The eyes."
@@ -402,12 +401,12 @@ label ending_b_final:
 label ending_c_final:
     scene black with fade
 
-    "One year later. Graduation day."
+    thought "One year later. Graduation day."
 
     scene school_rooftop with fade
 
-    "He's on the roof after the ceremony."
-    "I sit down beside him."
+    thought "He's on the roof after the ceremony."
+    thought "I sit down beside him."
 
     show yejuntalk at center_char
     yejun "How are you."
@@ -458,16 +457,16 @@ label ending_c_final:
 label ending_d_final:
     scene black with fade
 
-    "One year later. Graduation day."
+    thought "One year later. Graduation day."
 
     scene school_rooftop with fade
 
-    "He left in February."
-    "He texted for a while. Then less."
-    "I'm not angry. I'm just carrying it."
+    thought "He left in February."
+    thought "He texted for a while."
+    thought "I'm not angry."
 
-    "I sit on the rooftop alone after the ceremony."
-    "My phone buzzes."
+    thought "I sit on the rooftop alone after the ceremony."
+    thought "My phone buzzes."
 
     show yejuntalk at center_char
     yejun "Congratulations."
@@ -482,10 +481,10 @@ label ending_d_final:
             show yejuntalk at center_char
             yejun "I'd like that."
             hide yejuntalk
-            "I put my phone down."
-            "I open my sketchbook to the portrait."
-            "I draw the outline of his eyes."
-            "Just the outline. A start."
+            thought "I put my phone down."
+            thought "I open my sketchbook to the portrait."
+            thought "I draw the outline of his eyes."
+            thought "Just the outline. A start."
 
         "\"Don't maybe. Just come find me.\""
             show inhatalk at center_char
@@ -494,8 +493,9 @@ label ending_d_final:
             show yejuntalk at center_char
             yejun "Okay."
             hide yejuntalk
-            "Somewhere in that city— him."
-            "That's enough. For now."
+            thought "Somewhere in that city— him."
+            thought "That's enough." 
+            thought "For now."
 
     scene black with fade
     "— END: Route D —"
