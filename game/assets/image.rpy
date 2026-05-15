@@ -14,12 +14,12 @@ image exhibition = At("images/exhibition.webp", bg_fit)
 image drawing = At("images/drawing.png", bg_fit)
 
 ## In-Ha sprites
-image inhatalk = "images/inhatalk.png"
-image inhaquiet = "images/inhaquiet.png"
-image inhasad = "images/inhasad.png"
-image inhasmile = "images/inhasmile.png"
-image inhasmiletalking = "images/inhasmiletalking.png"
-image inhaangry = "images/inhaangry.png"
+image inha talk = "images/inhatalk.png"
+image inha quiet = "images/inhaquiet.png"
+image inha sad = "images/inhasad.png"
+image inha smile = "images/inhasmile.png"
+image inha smiletalking = "images/inhasmiletalking.png"
+image inha angry = "images/inhaangry.png"
 
 ## Ye-Jun sprites
 image yejuntalk = "images/Black haired blue eye boy/yejuntalk.png"

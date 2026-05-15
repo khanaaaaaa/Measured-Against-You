@@ -22,27 +22,27 @@ label prologue:
     thought "Only me."
     thought "It's always only me."
 
-    show inhasad at center_char
+    show inha sad at center_char
     inha "Don't cry."
     inha "At least not here."
     inha "Not in front of everyone..."
-    hide inhasad
+    hide inha
 
-    show inhaquiet at center_char
+    show inha quiet at center_char
     thought "My phone buzzes."
     thought "Mom."
-    hide inhaquiet
+    hide inha
 
-    show inhatalk at center_char
+    show inha talk at center_char
     inha "Hello?"
-    hide inhatalk
-    show inhaquiet at center_char
+    hide inha
+    show inha quiet at center_char
     mom "Sweetheart~ Are you done for the day?"
-    hide inhaquiet
-    show inhatalk at center_char
+    hide inha
+    show inha talk at center_char
     inha "I have academy tonight, I told you."
-    hide inhatalk
-    show inhaquiet at center_char
+    hide inha
+    show inha quiet at center_char
     mom "I know, I know. But listen—"
     mom "Ye-Jun's mom just moved back to the neighborhood."
     mom "She called me this morning."
@@ -50,7 +50,7 @@ label prologue:
     thought "Ye-Jun...?"
     mom "You remember Ye-Jun, right? Noh Ye-Jun?"
     mom "You two were inseparable when you were little!"
-    hide inhaquiet
+    hide inha
 
     scene black with fade
 
@@ -73,22 +73,22 @@ label prologue:
     thought "Canada, they said."
     thought "Better opportunities."
 
-    show inhaquiet at center_char
+    show inha quiet at center_char
     mom "He's back now, apparently!"
     mom "His mom says he grew up so handsome~"
-    hide inhaquiet
+    hide inha
 
-    show inhatalk at center_char
+    show inha talk at center_char
     inha "Mm."
-    hide inhatalk
-    show inhaquiet at center_char
+    hide inha
+    show inha quiet at center_char
     mom "His mom will come by after dinner, so eat on your way home, okay?"
     mom "Don't skip meals again, In-Ha."
-    hide inhaquiet
-    show inhatalk at center_char
+    hide inha
+    show inha talk at center_char
     inha "Okay, mom. I'll eat."
     inha "I have to go."
-    hide inhatalk
+    hide inha
 
     thought "I hang up."
     thought "The hallway is emptying out."

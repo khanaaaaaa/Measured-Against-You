@@ -40,10 +40,10 @@ label chapter14:
     thought "A teacher crouching beside me."
     thought "I don't remember walking out."
 
-    show inhatalk at center_char
+    show inha talk at center_char
     inha "I'm fine."
     inha "I just need a minute."
-    hide inhatalk
+    hide inha
 
     thought "The teacher says something about water."
     thought "I nod."
@@ -86,22 +86,22 @@ label chapter15:
     thought "Not Minji's knock."
     thought "Minji knocks like she's trying to break the door."
 
-    show inhatalk at center_char
+    show inha talk at center_char
     inha "Who is it?"
-    hide inhatalk
+    hide inha
 
     yejun "It's me."
 
-    show inhatalk at center_char
+    show inha talk at center_char
     inha "How do you know where I live."
-    hide inhatalk
+    hide inha
 
     yejun "Minji."
     yejun "She was worried."
 
-    show inhatalk at center_char
+    show inha talk at center_char
     inha "I'm fine."
-    hide inhatalk
+    hide inha
 
     yejun "I know."
     yejun "I brought food."
@@ -113,9 +113,9 @@ label chapter15:
 
     menu:
         "Open the door.":
-            show inhatalk at center_char
+            show inha talk at center_char
             inha "..."
-            hide inhatalk
+            hide inha
             thought "I open the door."
             thought "He's at the end of the hallway."
             thought "He turns around."
@@ -184,9 +184,9 @@ label chapter15:
             hide minjiquiet
             thought "I pick up my phone."
             thought "I text Minji back."
-            show inhatalk at center_char
+            show inha talk at center_char
             inha "I'm alive. I'm okay. I'll come back tomorrow."
-            hide inhatalk
+            hide inha
             show minjiquiet at center_char
             minji "You better."
             minji "Also Ye-Jun was worried too."
@@ -648,11 +648,11 @@ label ending_choice:
 label ending_a:
     scene room with fade
 
-    show inhatalk at center_char
+    show inha talk at center_char
     inha "..."
     inha "Okay."
     inha "Okay. I can do this."
-    hide inhatalk
+    hide inha
 
     "I pick up the pencil."
     "I keep going."
@@ -684,9 +684,9 @@ label ending_b:
     "No plan. No title. No goal."
     "Just the pencil moving."
 
-    show inhatalk at center_char
+    show inha talk at center_char
     inha "..."
-    hide inhatalk
+    hide inha
 
     "I draw his face."
     "I leave the eyes for last."
@@ -707,10 +707,10 @@ label ending_c:
     "That's okay."
     "Not yet is not never."
 
-    show inhatalk at center_char
+    show inha talk at center_char
     inha "..."
     inha "Tomorrow."
-    hide inhatalk
+    hide inha
 
     "I put the pencil on the desk."
     "I turn off the light."
@@ -723,21 +723,21 @@ label ending_c:
     show minjismiletalk at center_char
     minji "You're back."
     hide minjismiletalk
-    show inhatalk at center_char
+    show inha talk at center_char
     inha "I'm back."
-    hide inhatalk
+    hide inha
     show minjismiletalk at center_char
     minji "How are you actually."
     hide minjismiletalk
-    show inhatalk at center_char
+    show inha talk at center_char
     inha "Getting there."
-    hide inhatalk
+    hide inha
     show minjismiletalk at center_char
     minji "That's the most honest you've been in months."
     hide minjismiletalk
-    show inhatalk at center_char
+    show inha talk at center_char
     inha "Don't push it."
-    hide inhatalk
+    hide inha
     show minjismiletalk at center_char
     minji "Pushed. Absolutely pushed."
     hide minjismiletalk

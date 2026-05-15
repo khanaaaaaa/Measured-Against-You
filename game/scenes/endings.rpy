@@ -24,9 +24,9 @@ label ending_a_final:
     minji "That's a lot."
     hide minjismiletalk
 
-    show inhatalk at center_char
+    show inha talk at center_char
     inha "Yeah."
-    hide inhatalk
+    hide inha
 
     "I hug her."
     "She hugs me back hard."
@@ -36,19 +36,19 @@ label ending_a_final:
     minji "Not the one you originally wanted?"
     hide minjismiletalk
 
-    show inhatalk at center_char
+    show inha talk at center_char
     inha "No."
     inha "A better one."
-    hide inhatalk
+    hide inha
 
     show minjismiletalk at center_char
     minji "Look at you."
     minji "Being happy about things."
     hide minjismiletalk
 
-    show inhatalk at center_char
+    show inha talk at center_char
     inha "Don't make it weird."
-    hide inhatalk
+    hide inha
 
     show minjismiletalk at center_char
     minji "It's a little weird. But in a good way."
@@ -79,18 +79,18 @@ label ending_a_final:
     "Diploma in his lap."
     "Looking at the city."
 
-    show inhatalk at center_char
+    show inha talk at center_char
     inha "You skipped the group photo."
-    hide inhatalk
+    hide inha
 
     show yejuntalk at center_char
     yejun "I was in it."
     yejun "I left after."
     hide yejuntalk
 
-    show inhatalk at center_char
+    show inha talk at center_char
     inha "Your mom is going to be upset."
-    hide inhatalk
+    hide inha
 
     show yejuntalk at center_char
     yejun "My mom is talking to seventeen other moms."
@@ -107,17 +107,17 @@ label ending_a_final:
     yejun "My dad still thinks it's a phase though."
     hide yejuntalk
 
-    show inhatalk at center_char
+    show inha talk at center_char
     inha "Is it?"
-    hide inhatalk
+    hide inha
 
     show yejuntalk at center_char
     yejun "No."
     hide yejuntalk
 
-    show inhatalk at center_char
+    show inha talk at center_char
     inha "Then it's not a phase."
-    hide inhatalk
+    hide inha
 
     show yejuntalk at center_char
     yejun "You got into the art program."
@@ -125,44 +125,44 @@ label ending_a_final:
     yejun "That's the same city as my program."
     hide yejuntalk
 
-    show inhatalk at center_char
+    show inha talk at center_char
     inha "I'm aware."
-    hide inhatalk
+    hide inha
 
     show yejuntalk at center_char
     yejun "In-Ha."
     hide yejuntalk
 
-    show inhatalk at center_char
+    show inha talk at center_char
     inha "Mm?"
-    hide inhatalk
+    hide inha
 
     show yejuntalk at center_char
     yejun "I liked you even when you were mean to me."
     hide yejuntalk
 
-    show inhatalk at center_char
+    show inha talk at center_char
     inha "..."
     inha "You're bringing this up now."
     inha "On graduation day."
     inha "On the rooftop."
-    hide inhatalk
+    hide inha
 
     show yejuntalk at center_char
     yejun "I've been trying to say it for three months."
     hide yejuntalk
 
-    show inhatalk at center_char
+    show inha talk at center_char
     inha "Three months."
-    hide inhatalk
+    hide inha
 
     show yejuntalk at center_char
     yejun "You're intimidating."
     hide yejuntalk
 
-    show inhatalk at center_char
+    show inha talk at center_char
     inha "I'm not intimidating."
-    hide inhatalk
+    hide inha
 
     show yejuntalk at center_char
     yejun "You really are."
@@ -170,85 +170,85 @@ label ending_a_final:
 
     menu:
         "\"I liked you too. Even when I was mean to you.\"":
-            show inhatalk at center_char
+            show inha talk at center_char
             inha "I liked you too."
             inha "Even when I was mean to you."
-            hide inhatalk
+            hide inha
             show yejuntalk at center_char
             yejun "I know."
             hide yejuntalk
-            show inhatalk at center_char
+            show inha talk at center_char
             inha "You know?"
-            hide inhatalk
+            hide inha
             show yejuntalk at center_char
             yejun "I hoped."
             yejun "There's a difference."
             hide yejuntalk
-            show inhatalk at center_char
+            show inha talk at center_char
             inha "..."
-            hide inhatalk
+            hide inha
             "I look at him."
             "He looks back."
             "The city hums below."
             "Cherry blossoms drift up from the courtyard."
             "One lands on his shoulder."
             "I don't point it out."
-            show inhatalk at center_char
+            show inha talk at center_char
             inha "Seoul."
-            hide inhatalk
+            hide inha
             show yejuntalk at center_char
             yejun "Seoul."
             hide yejuntalk
-            show inhatalk at center_char
+            show inha talk at center_char
             inha "Don't make it a big deal."
-            hide inhatalk
+            hide inha
             show yejuntalk at center_char
             yejun "I'm not making it anything."
             yejun "I'm just sitting here."
             hide yejuntalk
-            show inhatalk at center_char
+            show inha talk at center_char
             inha "..."
             inha "Okay."
-            hide inhatalk
+            hide inha
             "We sit there until Minji yells our names from the courtyard below."
             "We don't move for another five minutes."
 
         "\"You could have just said something sooner.\"":
-            show inhatalk at center_char
+            show inha talk at center_char
             inha "You could have just said something sooner."
-            hide inhatalk
+            hide inha
             show yejuntalk at center_char
             yejun "So could you."
             hide yejuntalk
-            show inhatalk at center_char
+            show inha talk at center_char
             inha "..."
             inha "Fair."
-            hide inhatalk
+            hide inha
             show yejuntalk at center_char
             yejun "We're both terrible at this."
             hide yejuntalk
-            show inhatalk at center_char
+            show inha talk at center_char
             inha "Speak for yourself."
-            hide inhatalk
+            hide inha
             show yejuntalk at center_char
             yejun "In-Ha."
             hide yejuntalk
-            show inhatalk at center_char
+            show inha talk at center_char
             inha "Fine. We're both terrible at this."
-            hide inhatalk
+            hide inha
             show yejuntalk at center_char
             yejun "Seoul though."
             hide yejuntalk
-            show inhatalk at center_char
+            show inha talk at center_char
             inha "Seoul."
-            hide inhatalk
+            hide inha
             show yejuntalk at center_char
             yejun "We'll figure it out."
             hide yejuntalk
-            show inhatalk at center_char
+            show inha talk at center_char
             inha "..."
             inha "Yeah. We will."
-            hide inhatalk
+            hide inha
 
     scene black with fade
     "— END: Route A —"
@@ -271,25 +271,25 @@ label ending_b_final:
     minji "It says 'finally' in rhinestones."
     hide minjismiletalk
 
-    show inhatalk at center_char
+    show inha talk at center_char
     inha "Of course it does."
-    hide inhatalk
+    hide inha
 
     show minjismiletalk at center_char
     minji "Are you okay?"
     hide minjismiletalk
 
-    show inhatalk at center_char
+    show inha talk at center_char
     inha "Yeah. Actually yeah."
-    hide inhatalk
+    hide inha
 
     show minjismiletalk at center_char
     minji "And you're not going to spend the whole day measuring it against something else?"
     hide minjismiletalk
 
-    show inhatalk at center_char
+    show inha talk at center_char
     inha "I'm going to try not to."
-    hide inhatalk
+    hide inha
 
     show minjismiletalk at center_char
     minji "That's growth."
@@ -313,18 +313,18 @@ label ending_b_final:
     yejun "Minji said you'd be up here."
     hide yejuntalk
 
-    show inhatalk at center_char
+    show inha talk at center_char
     inha "Minji needs to stop telling people where I am."
-    hide inhatalk
+    hide inha
 
     show yejuntalk at center_char
     yejun "She said congratulations."
     yejun "And that you owe her ramyeon."
     hide yejuntalk
 
-    show inhatalk at center_char
+    show inha talk at center_char
     inha "I don't owe her ramyeon."
-    hide inhatalk
+    hide inha
 
     "He sits down. He sees the sketchbook."
 
@@ -332,9 +332,9 @@ label ending_b_final:
     yejun "The eyes."
     hide yejuntalk
 
-    show inhatalk at center_char
+    show inha talk at center_char
     inha "Still not finished."
-    hide inhatalk
+    hide inha
 
     show yejuntalk at center_char
     yejun "What are you waiting to understand?"
@@ -342,41 +342,41 @@ label ending_b_final:
 
     menu:
         "\"What you actually want.\"":
-            show inhatalk at center_char
+            show inha talk at center_char
             inha "What you actually want."
             inha "Not what you're supposed to want."
             inha "You spent so long performing."
             inha "I don't know what's underneath yet."
-            hide inhatalk
+            hide inha
             show yejuntalk at center_char
             yejun "Neither do I. Sometimes."
             hide yejuntalk
-            show inhatalk at center_char
+            show inha talk at center_char
             inha "That's why the eyes aren't finished."
-            hide inhatalk
+            hide inha
             show yejuntalk at center_char
             yejun "Will you tell me when you figure it out?"
             hide yejuntalk
-            show inhatalk at center_char
+            show inha talk at center_char
             inha "You'll be the first to know."
-            hide inhatalk
+            hide inha
 
         "\"Whether you're going to be okay.\"":
-            show inhatalk at center_char
+            show inha talk at center_char
             inha "Whether you're going to be okay."
-            hide inhatalk
+            hide inha
             show yejuntalk at center_char
             yejun "I'm going to be okay."
             hide yejuntalk
-            show inhatalk at center_char
+            show inha talk at center_char
             inha "I know."
             inha "But I want to see it."
             inha "In your eyes. Before I paint them."
-            hide inhatalk
+            hide inha
             "He looks at me. Really looks."
-            show inhatalk at center_char
+            show inha talk at center_char
             inha "..."
-            hide inhatalk
+            hide inha
             "I pick up my pencil."
             "I start on the eyes."
 
@@ -401,17 +401,17 @@ label ending_c_final:
 
     menu:
         "\"Getting there.\"":
-            show inhatalk at center_char
+            show inha talk at center_char
             inha "Getting there."
-            hide inhatalk
+            hide inha
             show yejuntalk at center_char
             yejun "That's enough."
             hide yejuntalk
 
         "\"Better than last month.\"":
-            show inhatalk at center_char
+            show inha talk at center_char
             inha "Better than last month."
-            hide inhatalk
+            hide inha
             show yejuntalk at center_char
             yejun "Good."
             hide yejuntalk
@@ -422,17 +422,17 @@ label ending_c_final:
 
     menu:
         "\"More than okay.\"":
-            show inhatalk at center_char
+            show inha talk at center_char
             inha "More than okay."
-            hide inhatalk
+            hide inha
             show yejuntalk at center_char
             yejun "We'll figure the rest out."
             hide yejuntalk
 
         "\"Ask me again in Seoul.\"":
-            show inhatalk at center_char
+            show inha talk at center_char
             inha "Ask me again in Seoul."
-            hide inhatalk
+            hide inha
             show yejuntalk at center_char
             yejun "I'll hold you to that."
             hide yejuntalk
@@ -462,9 +462,9 @@ label ending_d_final:
 
     menu:
         "\"Maybe you will.\"":
-            show inhatalk at center_char
+            show inha talk at center_char
             inha "Maybe you will."
-            hide inhatalk
+            hide inha
             show yejuntalk at center_char
             yejun "I'd like that."
             hide yejuntalk
@@ -474,9 +474,9 @@ label ending_d_final:
             thought "Just the outline. A start."
 
         "\"Don't maybe. Just come find me.\"":
-            show inhatalk at center_char
+            show inha talk at center_char
             inha "Don't maybe. Just come find me."
-            hide inhatalk
+            hide inha
             show yejuntalk at center_char
             yejun "Okay."
             hide yejuntalk
