@@ -256,4 +256,196 @@ label ending_a_final:
     "— END: Route A —"
     "Graduation Day"
 
+label ending_b_final:
+
+    scene black with fade
+
+    thought "One year later."
+    thought "Graduation day."
+
+    scene school_exterior with fade
+
+    thought "It's warm."
+    thought "The kind of warm that feels like permission."
+    thought "Like the year finally exhaling."
+
+    thought "Minji finds me before the ceremony."
+    thought "She's wearing her cap sideways."
+    thought "On purpose."
+
+    show minjismiletalk at center_char
+    minji "I decorated mine."
+    hide minjismiletalk
+
+    show minjismile at center_char
+    inha "I can see that."
+    hide minjismile
+
+    show minjismiletalk at center_char
+    minji "It says 'finally' in rhinestones."
+    hide minjismiletalk
+
+    show minjismile at center_char
+    inha "Of course it does."
+    hide minjismile
+
+    show minjismiletalk at center_char
+    minji "Are you okay?"
+    hide minjismiletalk
+
+    show minjismile at center_char
+    inha "Yeah."
+    inha "Actually yeah."
+    hide minjismile
+
+    show minjismiletalk at center_char
+    minji "You got into the program."
+    hide minjismiletalk
+
+    show minjismile at center_char
+    inha "I got into the program."
+    hide minjismile
+
+    show minjismiletalk at center_char
+    minji "And you're not going to spend the whole day measuring it against something else?"
+    hide minjismiletalk
+
+    show inhatalk at center_char
+    inha "I'm going to try not to."
+    hide inhatalk
+
+    show minjismiletalk at center_char
+    minji "That's growth."
+    hide minjismiletalk
+
+    thought "The ceremony is long."
+    thought "My feet hurt."
+    thought "The speech goes on for twenty minutes."
+    thought "I don't mind."
+    thought "I'm just here."
+    thought "Just present."
+    thought "That's new."
+
+    scene school_rooftop with fade
+
+    thought "I go up to the rooftop after."
+    thought "I have my sketchbook."
+    thought "I've been carrying it all day."
+    thought "I sit down and open it to the portrait."
+
+    thought "His face."
+    thought "The snow."
+    thought "The eyes still blank."
+
+    thought "I've been looking at this page for months."
+    thought "Waiting until I understood them."
+
+    thought "Footsteps on the stairs."
+
+    show yejuntalk at center_char
+    yejun "Minji said you'd be up here."
+    hide yejuntalk
+
+    show yejunquiet at center_char
+    inha "Minji needs to stop telling people where I am."
+    hide yejunquiet
+
+    show yejuntalk at center_char
+    yejun "She said to tell you congratulations."
+    yejun "And also that you owe her ramyeon."
+    hide yejuntalk
+
+    show yejunquiet at center_char
+    inha "I don't owe her ramyeon."
+    hide yejunquiet
+
+    show yejuntalk at center_char
+    yejun "She said you'd say that."
+    yejun "She said to tell you that you do."
+    hide yejuntalk
+
+    thought "He sits down."
+    thought "He sees the sketchbook."
+    thought "He sees the portrait."
+    thought "He doesn't say anything for a moment."
+
+    show yejuntalk at center_char
+    yejun "The eyes."
+    hide yejuntalk
+
+    show yejunquiet at center_char
+    inha "Still not finished."
+    hide yejunquiet
+
+    show yejuntalk at center_char
+    yejun "Can I ask you something?"
+    hide yejuntalk
+
+    show yejunquiet at center_char
+    inha "Mm."
+    hide yejunquiet
+
+    show yejuntalk at center_char
+    yejun "What are you waiting to understand?"
+    hide yejuntalk
+
+    menu:
+        "\"What you actually want.\""
+            show yejunquiet at center_char
+            inha "What you actually want."
+            inha "Not what you're supposed to want."
+            inha "What you want."
+            yejun "..."
+            inha "You spent so long performing."
+            inha "I don't know what's underneath yet."
+            hide yejunquiet
+            show yejuntalk at center_char
+            yejun "Neither do I."
+            yejun "Sometimes."
+            hide yejuntalk
+            show yejunquiet at center_char
+            inha "I know."
+            inha "That's why the eyes aren't finished."
+            yejun "..."
+            hide yejunquiet
+            show yejuntalk at center_char
+            yejun "Will you tell me when you figure it out?"
+            hide yejuntalk
+            show yejunquiet at center_char
+            inha "You'll be the first to know."
+            hide yejunquiet
+
+        "\"Whether you're going to be okay.\""
+            show yejunquiet at center_char
+            inha "Whether you're going to be okay."
+            yejun "..."
+            hide yejunquiet
+            show yejuntalk at center_char
+            yejun "That's what you see when you look at me?"
+            hide yejuntalk
+            show yejunquiet at center_char
+            inha "Sometimes."
+            hide yejunquiet
+            show yejuntalk at center_char
+            yejun "I'm going to be okay."
+            hide yejuntalk
+            show yejunquiet at center_char
+            inha "I know."
+            inha "But I want to see it."
+            inha "In your eyes."
+            inha "Before I paint them."
+            thought "He looks at me."
+            thought "Really looks."
+            show inhaquiet at center_char
+            inha "..."
+            hide inhaquiet
+            thought "I pick up my pencil."
+            thought "I start on the eyes."
+
+    scene black with fade
+
+    thought "— END: Route B —"
+    thought "Graduation Day"
+
     return
+
