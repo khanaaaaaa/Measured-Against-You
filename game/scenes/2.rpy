@@ -66,26 +66,26 @@ label chapter2:
 
     thought "Of course he does."
 
-    show minjitalk at center_char
+    show minjismiletalk at center_char
     minji "Did you hear? The transfer student."
     minji "Canada, Ivy League prep... Perfect grades."
     minji "And In-Ha— he is so pretty."
-    hide minjitalk
+    hide minjismiletalk
     show minjiquiet at center_char
     inha "I know who he is."
     hide minjiquiet
-    show minjitalk at center_char
+    show minjismiletalk at center_char
     minji "...You do?"
-    hide minjitalk
+    hide minjismiletalk
 
     menu:
         "\"We grew up next door to each other.\""
             show minjiquiet at center_char
             inha "We grew up next door to each other."
             hide minjiquiet
-            show minjitalk at center_char
+            show minjismiletalk at center_char
             minji "WHAT. And you never told me?!"
-            hide minjitalk
+            hide minjismiletalk
             show minjiquiet at center_char
             inha "It didn't come up."
             hide minjiquiet
@@ -93,10 +93,10 @@ label chapter2:
         "\"It doesn't matter.\""
             show minjiquiet at center_char
             inha "It doesn't matter. I just know him."
-            hide minjiquiet
-            show minjitalk at center_char
+            hide minjismilequiet
+            show minjismiletalk at center_char
             minji "That is so unsatisfying."
-            hide minjitalk
+            hide minjismiletalk
 
     thought "He walks in."
     thought "The classroom shifts around him."
@@ -204,38 +204,38 @@ label chapter4:
     thought "Not exam-tired."
     thought "The kind of tired that comes from performing the same role for too long."
 
-    show minjitalk at center_char
+    show minjismiletalk at center_char
     minji "In-Ha. You've been staring at him."
-    hide minjitalk
+    hide minjismiletalk
     show minjiquiet at center_char
 
     menu:
         "\"I'm thinking about the exam.\""
             inha "I'm thinking about the exam."
             hide minjiquiet
-            show minjitalk at center_char
+            show minjismiletalk at center_char
             minji "He is not the exam."
-            hide minjitalk
+            hide minjismiletalk
 
         "\"Does he always look that tired?\""
             inha "Does he always look that tired?"
             hide minjiquiet
-            show minjitalk at center_char
+            show minjismiletalk at center_char
             minji "Most people just think he looks mysterious."
-            hide minjitalk
+            hide minjismiletalk
             show minjiquiet at center_char
             inha "Most people aren't looking closely enough."
             hide minjiquiet
-            show minjitalk at center_char
+            show minjismiletalk at center_char
             minji "...I need you to think about what you just said."
-            hide minjitalk
+            hide minjismiletalk
 
     show minjiquiet at center_char
     inha "Drop it."
     hide minjiquiet
-    show minjitalk at center_char
+    show minjismiletalk at center_char
     minji "Dropped. Gone. Never existed."
-    hide minjitalk
+    hide minjismiletalk
     show minjiquiet at center_char
 
     thought "She will bring it up again within the hour."
