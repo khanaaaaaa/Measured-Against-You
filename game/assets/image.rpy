@@ -1,17 +1,17 @@
 ## Backgrounds
-image school_exterior = "images/school_exterior.webp"
-image school_rooftop = "images/school_rooftop.avif"
-image crosswalk = "images/crosswalk.webp"
-image classroom = "images/classroom.avif"
-image academy_night = "images/academy_night.jpg"
-image rooftop = "images/rooftop.jpg"
-image rooftop_rain = "images/rooftop_rain.avif"
-image exam_hall = "images/exam_hall.jpg"
-image room = "images/room.jpg"
-image exhibition = "images/exhibition.webp"
+image school_exterior = At("images/school_exterior.webp", bg_fit)
+image school_rooftop = At("images/school_rooftop.avif", bg_fit)
+image crosswalk = At("images/crosswalk.webp", bg_fit)
+image classroom = At("images/classroom.avif", bg_fit)
+image academy_night = At("images/academy_night.jpg", bg_fit)
+image rooftop = At("images/rooftop.jpg", bg_fit)
+image rooftop_rain = At("images/rooftop_rain.avif", bg_fit)
+image exam_hall = At("images/exam_hall.jpg", bg_fit)
+image room = At("images/room.jpg", bg_fit)
+image exhibition = At("images/exhibition.webp", bg_fit)
 
 ## Props
-image drawing = "images/drawing.png"
+image drawing = At("images/drawing.png", bg_fit)
 
 ## In-Ha sprites
 image inhatalk = "images/inhatalk.png"

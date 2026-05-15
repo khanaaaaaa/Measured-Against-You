@@ -485,6 +485,7 @@ label chapter13:
     thought "Arrows. Question marks."
     thought "One section circled three times."
 
+    show drawing
     show yejunsmile at center_char
     inha "This part—"
     inha "What does this feel like when you play it?"
@@ -560,5 +561,7 @@ label chapter13:
     thought "I don't hate him at all."
     thought "I haven't hated him in a very long time."
     thought "I'm not sure I ever did."
+
+    hide drawing
 
     jump chapter14

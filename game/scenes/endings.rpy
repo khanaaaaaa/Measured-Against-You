@@ -8,7 +8,6 @@ label ending_a_final:
 
     "The cherry blossoms are out."
     "Which feels almost too on the nose."
-    "Like the universe decided today needed to look like a movie."
     "The courtyard is full of people in caps and gowns."
     "Parents with cameras."
     "Teachers pretending not to cry."
@@ -31,7 +30,6 @@ label ending_a_final:
 
     "I hug her."
     "She hugs me back hard."
-    "We stand like that for a moment."
 
     show minjismiletalk at center_char
     minji "You got into the art program."
@@ -53,8 +51,7 @@ label ending_a_final:
     hide inhatalk
 
     show minjismiletalk at center_char
-    minji "It's a little weird."
-    minji "But in a good way."
+    minji "It's a little weird. But in a good way."
     hide minjismiletalk
 
     "The ceremony starts."
@@ -74,7 +71,6 @@ label ending_a_final:
 
     "After the ceremony I go up to the rooftop."
     "Habit."
-    "I don't even think about it."
     "My feet just go."
 
     "He's already there."
@@ -173,7 +169,7 @@ label ending_a_final:
     hide yejuntalk
 
     menu:
-        "\"I liked you too. Even when I was mean to you.\""
+        "\"I liked you too. Even when I was mean to you.\"":
             show inhatalk at center_char
             inha "I liked you too."
             inha "Even when I was mean to you."
@@ -217,7 +213,7 @@ label ending_a_final:
             "We sit there until Minji yells our names from the courtyard below."
             "We don't move for another five minutes."
 
-        "\"You could have just said something sooner.\""
+        "\"You could have just said something sooner.\"":
             show inhatalk at center_char
             inha "You could have just said something sooner."
             hide inhatalk
@@ -238,8 +234,7 @@ label ending_a_final:
             yejun "In-Ha."
             hide yejuntalk
             show inhatalk at center_char
-            inha "Fine."
-            inha "We're both terrible at this."
+            inha "Fine. We're both terrible at this."
             hide inhatalk
             show yejuntalk at center_char
             yejun "Seoul though."
@@ -256,26 +251,20 @@ label ending_a_final:
             hide inhatalk
 
     scene black with fade
-
     "— END: Route A —"
     "Graduation Day"
-
     return
 
 label ending_b_final:
     scene black with fade
 
-    thought "One year later."
-    thought "Graduation day."
+    "One year later."
+    "Graduation day."
 
     scene school_exterior with fade
 
-    thought "It's warm."
-    thought "The kind of warm that feels like permission."
-    thought "Like the year finally exhaling."
-
-    thought "Minji finds me before the ceremony."
-    thought "She's wearing her cap sideways. On purpose."
+    "It's warm."
+    "The kind of warm that feels like permission."
 
     show minjismiletalk at center_char
     minji "I decorated mine."
@@ -306,19 +295,19 @@ label ending_b_final:
     minji "That's growth."
     hide minjismiletalk
 
-    thought "The ceremony is long. My feet hurt."
-    thought "I don't mind."
-    thought "I'm just here. Just present."
-    thought "That's new."
+    "The ceremony is long. My feet hurt."
+    "I don't mind."
+    "I'm just here. Just present."
+    "That's new."
 
     scene school_rooftop with fade
 
-    thought "I go up to the rooftop after."
-    thought "I have my sketchbook."
-    thought "I sit down and open it to the portrait."
-    thought "I've been looking at this page for months."
+    "I go up to the rooftop after."
+    "I have my sketchbook."
+    "I sit down and open it to the portrait."
+    "I've been looking at this page for months."
 
-    thought "Footsteps on the stairs."
+    "Footsteps on the stairs."
 
     show yejuntalk at center_char
     yejun "Minji said you'd be up here."
@@ -337,7 +326,7 @@ label ending_b_final:
     inha "I don't owe her ramyeon."
     hide inhatalk
 
-    thought "He sits down. He sees the sketchbook."
+    "He sits down. He sees the sketchbook."
 
     show yejuntalk at center_char
     yejun "The eyes."
@@ -352,7 +341,7 @@ label ending_b_final:
     hide yejuntalk
 
     menu:
-        "\"What you actually want.\""
+        "\"What you actually want.\"":
             show inhatalk at center_char
             inha "What you actually want."
             inha "Not what you're supposed to want."
@@ -372,7 +361,7 @@ label ending_b_final:
             inha "You'll be the first to know."
             hide inhatalk
 
-        "\"Whether you're going to be okay.\""
+        "\"Whether you're going to be okay.\"":
             show inhatalk at center_char
             inha "Whether you're going to be okay."
             hide inhatalk
@@ -392,28 +381,26 @@ label ending_b_final:
             "I start on the eyes."
 
     scene black with fade
-
     "— END: Route B —"
     "Graduation Day"
-
     return
 
 label ending_c_final:
     scene black with fade
 
-    thought "One year later. Graduation day."
+    "One year later. Graduation day."
 
     scene school_rooftop with fade
 
-    thought "He's on the roof after the ceremony."
-    thought "I sit down beside him."
+    "He's on the roof after the ceremony."
+    "I sit down beside him."
 
     show yejuntalk at center_char
     yejun "How are you."
     hide yejuntalk
 
     menu:
-        "\"Getting there.\""
+        "\"Getting there.\"":
             show inhatalk at center_char
             inha "Getting there."
             hide inhatalk
@@ -421,7 +408,7 @@ label ending_c_final:
             yejun "That's enough."
             hide yejuntalk
 
-        "\"Better than last month.\""
+        "\"Better than last month.\"":
             show inhatalk at center_char
             inha "Better than last month."
             hide inhatalk
@@ -434,7 +421,7 @@ label ending_c_final:
     hide yejuntalk
 
     menu:
-        "\"More than okay.\""
+        "\"More than okay.\"":
             show inhatalk at center_char
             inha "More than okay."
             hide inhatalk
@@ -442,7 +429,7 @@ label ending_c_final:
             yejun "We'll figure the rest out."
             hide yejuntalk
 
-        "\"Ask me again in Seoul.\""
+        "\"Ask me again in Seoul.\"":
             show inhatalk at center_char
             inha "Ask me again in Seoul."
             hide inhatalk
@@ -457,16 +444,16 @@ label ending_c_final:
 label ending_d_final:
     scene black with fade
 
-    thought "One year later. Graduation day."
+    "One year later. Graduation day."
 
     scene school_rooftop with fade
 
-    thought "He left in February."
-    thought "He texted for a while."
-    thought "I'm not angry."
+    "He left in February."
+    "He texted for a while."
+    "I'm not angry."
 
-    thought "I sit on the rooftop alone after the ceremony."
-    thought "My phone buzzes."
+    "I sit on the rooftop alone after the ceremony."
+    "My phone buzzes."
 
     show yejuntalk at center_char
     yejun "Congratulations."
@@ -474,7 +461,7 @@ label ending_d_final:
     hide yejuntalk
 
     menu:
-        "\"Maybe you will.\""
+        "\"Maybe you will.\"":
             show inhatalk at center_char
             inha "Maybe you will."
             hide inhatalk
@@ -486,7 +473,7 @@ label ending_d_final:
             thought "I draw the outline of his eyes."
             thought "Just the outline. A start."
 
-        "\"Don't maybe. Just come find me.\""
+        "\"Don't maybe. Just come find me.\"":
             show inhatalk at center_char
             inha "Don't maybe. Just come find me."
             hide inhatalk
@@ -494,7 +481,7 @@ label ending_d_final:
             yejun "Okay."
             hide yejuntalk
             thought "Somewhere in that city— him."
-            thought "That's enough." 
+            thought "That's enough."
             thought "For now."
 
     scene black with fade

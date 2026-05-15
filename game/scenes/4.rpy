@@ -5,59 +5,49 @@ label chapter14:
     thought "Every seat is filled."
     thought "The kind of silence that isn't really silence—"
     thought "—just everyone holding their breath at the same time."
-
     thought "I've sat in this room a hundred times."
-    thought "Mock exams. Practice drills. Timed tests."
-    thought "I know the exact flicker of the third fluorescent light from the left."
-    thought "I know the sound the heating makes when it kicks on."
     thought "I know this room."
-
     thought "It's fine. I studied for this."
 
     thought "The papers come down."
     thought "I flip mine over."
-    thought "First question. I know it.."
+    thought "First question. I know it."
     thought "Second question. I know it."
     thought "Third question."
     thought "I—"
 
-    scene black
+    scene black with fade
 
     thought "What was the formula."
     thought "I studied this. I studied this a hundred times."
     thought "It starts with— it starts with—"
-
     thought "My hand is shaking."
     thought "I press it flat against the desk."
     thought "It keeps shaking."
     thought "The room tilts."
     thought "The fluorescent lights buzz too loud."
-    thought "Someone's pencil scratches."
-    thought "Someone coughs."
     thought "Everything is too much."
-
     thought "Stop it."
     thought "Stop it. You know this."
-
     thought "I don't know this."
     thought "It's gone."
     thought "Everything I studied— just gone."
     thought "Like someone reached in and cleared the shelf."
-
     thought "Someone says my name."
     thought "Then louder."
-    thought"Then I'm in the corridor."
+    thought "Then I'm in the corridor."
     thought "Sitting on the floor with my back against the wall."
     thought "A teacher crouching beside me."
     thought "I don't remember walking out."
 
+    show inhatalk at center_char
     inha "I'm fine."
     inha "I just need a minute."
+    hide inhatalk
 
     thought "The teacher says something about water."
     thought "I nod."
     thought "I don't hear it."
-
     thought "I left in the middle of the exam."
     thought "I have never left in the middle of anything."
 
@@ -69,13 +59,11 @@ label chapter15:
     thought "Three days."
     thought "I don't go to the academy."
     thought "I tell my mom I have a cold."
-
     thought "My sketchbook sits on the desk."
     thought "I don't open it."
     thought "On the second day I pick up a pencil."
     thought "My hand shakes."
     thought "I put it down."
-
     thought "I've been drawing since I was five years old."
     thought "It has never not come."
     thought "Not when I was sick."
@@ -84,65 +72,53 @@ label chapter15:
     thought "And now—"
     thought "Nothing."
 
-    thought "Minji texts constantly."
-
-    show inhaquiet at center_char
+    show minjiquiet at center_char
     minji "In-Ha."
     minji "Please just tell me you're alive."
     minji "I will come to your house."
     minji "I will stand outside and yell."
     minji "I have done it before."
+    hide minjiquiet
 
     thought "I type: I'm alive."
     thought "I don't send it."
-
     thought "On the fourth day someone knocks."
     thought "Not Minji's knock."
     thought "Minji knocks like she's trying to break the door."
 
-    hide inhaquiet
     show inhatalk at center_char
     inha "Who is it?"
     hide inhatalk
 
-    scene bg apartment_hallway
-    show yejuntalk at center_char
-
     yejun "It's me."
-    hide yejuntalk
 
-    show yejunquiet at center_char
+    show inhatalk at center_char
     inha "How do you know where I live."
-    hide yejunquiet
-    show yejuntalk at center_char
+    hide inhatalk
 
     yejun "Minji."
     yejun "She was worried."
-    hide yejuntalk
 
-    show yejunquiet at center_char
+    show inhatalk at center_char
     inha "I'm fine."
-    hide yejunquiet
-    show yejuntalk at center_char
+    hide inhatalk
 
     yejun "I know."
     yejun "I brought food."
     yejun "You don't have to open the door."
     yejun "I'll leave it here."
 
-    hide yejuntalk
-
     "Footsteps."
     "Then silence."
 
     menu:
-        "Open the door."
-            show inhaquiet at center_char
+        "Open the door.":
+            show inhatalk at center_char
             inha "..."
+            hide inhatalk
             thought "I open the door."
             thought "He's at the end of the hallway."
             thought "He turns around."
-            hide inhaquiet
             show yejuntalk at center_char
             yejun "Oh."
             hide yejuntalk
@@ -152,15 +128,14 @@ label chapter15:
             show yejuntalk at center_char
             yejun "You don't have to—"
             hide yejuntalk
-            screen room at bg_fit
             show yejunquiet at center_char
             inha "I know."
+            hide yejunquiet
             thought "He comes in."
             thought "He doesn't say anything about the room."
             thought "The sketchbook on the desk."
             thought "The pencil lying beside it untouched."
             thought "He just sits down on the floor and opens the bag."
-            hide yejunquiet
             show yejuntalk at center_char
             yejun "Ramyeon. Banana milk."
             yejun "And a tangerine, you mentioned you liked them."
@@ -182,7 +157,6 @@ label chapter15:
             yejun "I've slept on a rooftop in December."
             yejun "I'll survive."
             hide yejuntalk
-            show yejunquiet
             thought "We eat ramyeon on the floor."
             thought "He doesn't ask what happened."
             thought "He doesn't ask if I'm okay."
@@ -190,7 +164,7 @@ label chapter15:
             thought "And somehow that's the only thing I needed."
             jump chapter15b
 
-        "Don't open the door."
+        "Don't open the door.":
             thought "I don't open the door."
             thought "I sit on the floor with my back against it."
             thought "I hear him set something down outside."
@@ -205,19 +179,19 @@ label chapter15:
             thought "I sit back down on the floor."
             thought "I eat the tangerine."
             thought "It's the first thing I've eaten properly in two days."
-            show inhaquiet at center_char
+            show minjiquiet at center_char
             minji "In-Ha I swear to god."
+            hide minjiquiet
             thought "I pick up my phone."
-            thoguht "I text Minji back."
-            hide inhaquiet
+            thought "I text Minji back."
             show inhatalk at center_char
             inha "I'm alive. I'm okay. I'll come back tomorrow."
             hide inhatalk
-            show inhaquiet at center_char
+            show minjiquiet at center_char
             minji "You better."
             minji "Also Ye-Jun was worried too."
             minji "Just so you know."
-            minji "Not that you care obviously."
+            hide minjiquiet
             thought "I put my phone face down."
             thought "I look at the sketchbook on the desk."
             thought "I don't open it."
@@ -230,31 +204,25 @@ label chapter15b:
 
     show yejuntalk at center_char
     yejun "I couldn't play piano for two months once."
-    hide yejunquiet
-
+    hide yejuntalk
     show yejunquiet at center_char
     inha "What happened?"
     hide yejunquiet
-
     show yejuntalk at center_char
     yejun "I just couldn't."
     yejun "I'd sit down and my hands wouldn't move."
     yejun "Or they'd move and everything came out wrong."
     yejun "Like I'd forgotten what music was supposed to feel like."
     hide yejuntalk
-
     show yejunquiet at center_char
     inha "Did it come back?"
     hide yejunquiet
-
     show yejuntalk at center_char
     yejun "Eventually."
     hide yejuntalk
-
     show yejunquiet at center_char
     inha "How?"
     hide yejunquiet
-
     show yejuntalk at center_char
     yejun "I stopped trying to force it."
     yejun "I just sat at the piano every day."
@@ -264,7 +232,7 @@ label chapter15b:
     hide yejuntalk
 
     menu:
-        "\"That sounds impossible.\""
+        "\"That sounds impossible.\"":
             show yejunquiet at center_char
             inha "That sounds impossible."
             hide yejunquiet
@@ -273,7 +241,7 @@ label chapter15b:
             yejun "And then it wasn't."
             hide yejuntalk
 
-        "\"I don't know if I can just wait.\""
+        "\"I don't know if I can just wait.\"":
             show yejunquiet at center_char
             inha "I don't know if I can just sit and wait."
             inha "That's not how I work."
@@ -289,43 +257,35 @@ label chapter15b:
             yejun "Not bad."
             yejun "Just— sometimes the thing you're pushing against is yourself."
             hide yejuntalk
-            show yejunquiet
+            show yejunquiet at center_char
             inha "..."
             hide yejunquiet
 
     show yejuntalk at center_char
     yejun "You don't have to wait alone either."
     hide yejuntalk
-
     show yejunquiet at center_char
     inha "..."
     inha "You're going to make that weird."
     hide yejunquiet
-
     show yejuntalk at center_char
     yejun "I'm not making it weird."
     hide yejuntalk
-
     show yejunquiet at center_char
     inha "You said it like a drama line."
     hide yejunquiet
-
     show yejuntalk at center_char
     yejun "I said it like a normal sentence."
     hide yejuntalk
-
     show yejunquiet at center_char
     inha "It was very soft."
     hide yejunquiet
-
     show yejuntalk at center_char
     yejun "In-Ha."
     hide yejuntalk
-
     show yejunquiet at center_char
     inha "What."
     hide yejunquiet
-
     show yejuntalk at center_char
     yejun "Just eat your ramyeon."
     hide yejuntalk
@@ -335,11 +295,8 @@ label chapter15b:
     thought "Outside the window the city hums."
     thought "Snow starting again."
     thought "He stays until it gets late."
-    thought "Doesn't make a big deal of leaving."
     thought "Just stands up, says goodnight, and goes."
     thought "Like it was nothing."
-    thought "Like sitting on the floor of someone's room eating convenience store food is just a normal thing."
-
     thought "Maybe it is."
     thought "With him."
 
@@ -356,32 +313,26 @@ label chapter16:
     show minjismiletalk at center_char
     minji "Don't do that again."
     hide minjismiletalk
-
     show minjismile at center_char
     inha "I won't."
     hide minjismile
-
     show minjismiletalk at center_char
     minji "I mean it, In-Ha."
     hide minjismiletalk
-
     show minjismile at center_char
-    inha "I know." 
+    inha "I know."
     inha "I'm sorry."
     hide minjismile
-
     show minjismiletalk at center_char
     minji "Don't apologize to me."
     minji "Just don't disappear."
     hide minjismiletalk
-    show yejunquiet at center_char
 
     thought "He's on the roof when I get there after class."
     thought "He looks up."
     thought "Doesn't say anything."
     thought "I sit down."
     thought "We stay like that for a while."
-    hide yejunquiet
 
     show yejuntalk at center_char
     yejun "I had a panic attack last year."
@@ -393,7 +344,7 @@ label chapter16:
     hide yejuntalk
 
     menu:
-        "\"What did you do after?\""
+        "\"What did you do after?\"":
             show yejunquiet at center_char
             inha "What did you do after?"
             hide yejunquiet
@@ -413,11 +364,9 @@ label chapter16:
             show yejuntalk at center_char
             yejun "Nobody asked."
             yejun "That was the worst part."
-            yejun "Not the panic attack."
-            yejun "That nobody asked."
             hide yejuntalk
 
-        "\"Why are you telling me this?\""
+        "\"Why are you telling me this?\"":
             show yejunquiet at center_char
             inha "Why are you telling me this?"
             hide yejunquiet
@@ -428,18 +377,10 @@ label chapter16:
             hide yejuntalk
             show yejunquiet at center_char
             inha "..."
-            inha "Does it feel like that?"
-            inha "When it happens."
+            inha "Does it feel like that? When it happens."
             hide yejunquiet
             show yejuntalk at center_char
-            yejun "Like you're broken?"
-            hide yejuntalk
-            show yejunquiet at center_char
-            inha "Yeah."
-            hide yejunquiet
-            show yejuntalk at center_char
-            yejun "Yeah."
-            yejun "It does."
+            yejun "Yeah. It does."
             yejun "But you're not."
             hide yejuntalk
 
@@ -455,15 +396,15 @@ label chapter16:
     thought "I know that feeling."
     thought "I've known it my whole life."
     thought "I just never had words for it."
+
     inha "Does it get better?"
     hide yejunquiet
-
     show yejuntalk at center_char
     yejun "I think you just get better at catching yourself before you fall."
     hide yejuntalk
 
     menu:
-        "\"That's not very reassuring.\""
+        "\"That's not very reassuring.\"":
             show yejunquiet at center_char
             inha "That's not very reassuring."
             hide yejunquiet
@@ -472,14 +413,12 @@ label chapter16:
             hide yejuntalk
             show yejunquiet at center_char
             inha "..."
-            inha "Okay."
-            inha "I'll take true over reassuring."
+            inha "Okay. I'll take true over reassuring."
             hide yejunquiet
 
-        "\"Is that what you do? Catch yourself?\""
+        "\"Is that what you do? Catch yourself?\"":
             show yejunquiet at center_char
-            inha "Is that what you do?"
-            inha "Catch yourself?"
+            inha "Is that what you do? Catch yourself?"
             hide yejunquiet
             show yejuntalk at center_char
             yejun "I try."
@@ -487,13 +426,6 @@ label chapter16:
             hide yejuntalk
             show yejunquiet at center_char
             inha "What helps when you don't?"
-            yejun "..."
-            hide yejunquiet
-            show yejuntalk at center_char
-            yejun "Honestly?"
-            hide yejuntalk
-            show yejunquiet at center_char
-            inha "Honestly."
             hide yejunquiet
             show yejuntalk at center_char
             yejun "Coming up here."
@@ -507,15 +439,9 @@ label chapter16:
             yejun "Don't make it weird."
             hide yejuntalk
             show yejunquiet at center_char
-            inha "I didn't say anything."
-            hide yejunquiet
-            show yejuntalk at center_char
-            yejun "You were about to."
-            hide yejuntalk
-            show yejunquiet at center_char
             inha "..."
             inha "Maybe."
-            hide inhatalk
+            hide yejunquiet
 
     jump chapter17
 
@@ -525,7 +451,6 @@ label chapter17:
     thought "He plays me his composition."
     thought "On the small keyboard in the corner of the studio."
     thought "Just sits down and starts playing."
-
     thought "It starts quietly."
     thought "Then it opens."
     thought "Something warm underneath all the cold."
@@ -538,12 +463,11 @@ label chapter17:
     thought "And then—"
     thought "It lands."
     thought "Softly."
-
     thought "He stops."
     thought "Looks at me."
 
     menu:
-        "\"It's beautiful.\""
+        "\"It's beautiful.\"":
             show yejunquiet at center_char
             inha "It's beautiful."
             hide yejunquiet
@@ -557,7 +481,7 @@ label chapter17:
             thought "He looks back at the keys."
             thought "Like he doesn't know what to do with that."
 
-        "\"The part that was me— it resolved.\""
+        "\"The part that was me— it resolved.\"":
             show yejunquiet at center_char
             inha "The part that was me."
             inha "It resolved this time."
@@ -570,11 +494,11 @@ label chapter17:
             hide yejunquiet
             show yejuntalk at center_char
             yejun "I figured out where it wanted to go."
-            hide yrjuntalk
+            hide yejuntalk
             thought "I don't ask what that means."
             thought "I think I already know."
 
-        "Say nothing."
+        "Say nothing.":
             thought "I don't say anything."
             thought "I just sit with it."
             thought "He doesn't push for a response."
@@ -586,19 +510,15 @@ label chapter17:
     yejun "Last week."
     yejun "Without telling my parents."
     hide yejuntalk
-
     show yejunquiet at center_char
     inha "Are you serious."
     hide yejunquiet
-
     show yejuntalk at center_char
     yejun "Yeah."
     hide yejuntalk
-
     show yejunquiet at center_char
     inha "What are you going to do if you get in?"
     hide yejunquiet
-
     show yejuntalk at center_char
     yejun "I don't know yet."
     yejun "I just needed to know if I could do something for myself."
@@ -606,7 +526,7 @@ label chapter17:
     hide yejuntalk
 
     menu:
-        "\"Your parents are going to find out.\""
+        "\"Your parents are going to find out.\"":
             show yejunquiet at center_char
             inha "Your parents are going to find out."
             hide yejunquiet
@@ -616,7 +536,7 @@ label chapter17:
             yejun "At least there'll be one thing that was just mine."
             hide yejuntalk
 
-        "\"I think that's brave.\""
+        "\"I think that's brave.\"":
             show yejunquiet at center_char
             inha "I think that's brave."
             hide yejunquiet
@@ -625,11 +545,9 @@ label chapter17:
             hide yejuntalk
             show yejunquiet at center_char
             inha "Sometimes those are the same thing."
-            yejun "..."
             hide yejunquiet
             show yejuntalk at center_char
-            yejun "Yeah." 
-            yejun "Sometimes they are."
+            yejun "Yeah. Sometimes they are."
             hide yejuntalk
 
     thought "We walk out of the building together."
@@ -638,18 +556,16 @@ label chapter17:
     show yejuntalk at center_char
     yejun "In-Ha."
     hide yejuntalk
-
     show yejunquiet at center_char
     inha "Mm?"
     hide yejunquiet
-
     show yejuntalk at center_char
     yejun "You'll draw again."
     yejun "When you're ready it'll come back."
     hide yejuntalk
 
     menu:
-        "\"How do you know?\""
+        "\"How do you know?\"":
             show yejunquiet at center_char
             inha "How do you know?"
             hide yejunquiet
@@ -668,7 +584,7 @@ label chapter17:
             thought "Just the kind that comes when something tight finally loosens."
             jump ending_choice
 
-        "\"I hope you're right.\""
+        "\"I hope you're right.\"":
             show yejunquiet at center_char
             inha "I hope you're right."
             hide yejunquiet
@@ -682,7 +598,150 @@ label chapter17:
             yejun "Goodnight, In-Ha."
             hide yejuntalk
             thought "I watch him walk away."
-            thought "I think—" 
             thought "I am in so much trouble."
             jump ending_choice
 
+label ending_choice:
+    scene room with fade
+
+    "That night."
+    "I sit at my desk."
+    "Sketchbook in front of me."
+    "Pencil in my hand."
+    "I don't force it."
+    "I just sit."
+    "Like he said."
+
+    "Ten minutes."
+    "Twenty."
+    "My hand moves."
+    "Just a line."
+    "Then another."
+    "Then—"
+
+    "Oh."
+    "There it is."
+
+    "I draw until two in the morning."
+    "His hands on the keyboard."
+    "The rooftop."
+    "The crosswalk in the snow."
+    "Everything I've been holding."
+
+    "I open to a fresh page."
+    "I write a title."
+    "Then I cross it out."
+    "Then I write it again."
+
+    "Things I Could Never Say."
+
+    menu:
+        "Keep the title. This is what the exhibition will be.":
+            jump ending_a
+
+        "Cross it out. Some things don't need names.":
+            jump ending_b
+
+        "Close the sketchbook. Not yet.":
+            jump ending_c
+
+label ending_a:
+    scene room with fade
+
+    show inhatalk at center_char
+    inha "..."
+    inha "Okay."
+    inha "Okay. I can do this."
+    hide inhatalk
+
+    "I pick up the pencil."
+    "I keep going."
+    "I draw until the pencil goes dull."
+    "Then I sharpen it."
+    "Then I keep going."
+
+    thought "I'm going to show them."
+    thought "All of it."
+    thought "Every ugly honest thing."
+    thought "For the first time in a long time—"
+    thought "I'm not measuring it against anything."
+    thought "It's just mine."
+    thought "And that's enough."
+
+    scene black with fade
+    "— Route A unlocked —"
+    jump ending_a_final
+
+label ending_b:
+    scene room with fade
+
+    "I cross it out."
+    "The page stays blank except for the scratch of graphite."
+    "Some things don't need titles."
+    "Some things just need to exist."
+
+    "I start drawing."
+    "No plan. No title. No goal."
+    "Just the pencil moving."
+
+    show inhatalk at center_char
+    inha "..."
+    hide inhatalk
+
+    "I draw his face."
+    "I leave the eyes for last."
+    "When I get there I stop."
+
+    thought "I don't know his eyes well enough yet."
+    thought "I'll finish it when I do."
+
+    scene black with fade
+    "— Route B unlocked —"
+    jump ending_b_final
+
+label ending_c:
+    scene room with fade
+
+    "I close the sketchbook."
+    "Not yet."
+    "That's okay."
+    "Not yet is not never."
+
+    show inhatalk at center_char
+    inha "..."
+    inha "Tomorrow."
+    hide inhatalk
+
+    "I put the pencil on the desk."
+    "I turn off the light."
+    "In the morning—"
+    "I open the sketchbook."
+    "I draw one line."
+    "Just one."
+    "That's enough for today."
+
+    show minjismiletalk at center_char
+    minji "You're back."
+    hide minjismiletalk
+    show inhatalk at center_char
+    inha "I'm back."
+    hide inhatalk
+    show minjismiletalk at center_char
+    minji "How are you actually."
+    hide minjismiletalk
+    show inhatalk at center_char
+    inha "Getting there."
+    hide inhatalk
+    show minjismiletalk at center_char
+    minji "That's the most honest you've been in months."
+    hide minjismiletalk
+    show inhatalk at center_char
+    inha "Don't push it."
+    hide inhatalk
+    show minjismiletalk at center_char
+    minji "Pushed. Absolutely pushed."
+    hide minjismiletalk
+
+    scene black with fade
+    "— Route C unlocked —"
+    jump ending_c_final

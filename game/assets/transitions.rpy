@@ -1,5 +1,5 @@
 transform bg_fit:
-    xysize (cofig.screen_width, config.screen_height)
+    xysize (config.screen_width, config.screen_height)
 
 transform center_char:
     zoom 1.8
